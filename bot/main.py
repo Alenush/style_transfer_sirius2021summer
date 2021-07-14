@@ -1,100 +1,68 @@
 import telebot
-import string
-import requests
-import os
-import glob
-from telebot import types
-import importlib
+from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
+
+from utils.token import obtain_token
+from utils.database import Database
+
+import logging
 # import src.inference as inference
 
-TELEGRAM_API_TOKEN = "secret"
-
-TEXT_FOLDER = "texts"
+TELEGRAM_API_TOKEN = obtain_token()
+main_characters = ['ДЖОУИ', 'МОНИКА', 'РЕЙЧЕЛ', 'РОСС', 'ФИБИ', 'ЧЕНДЛЕР']
 bot = telebot.TeleBot(TELEGRAM_API_TOKEN)
+db = Database("bot/db.csv")
+
+logging.basicConfig(
+    filename='bot/bot.log', 
+    format='%(name)s %(asctime)s %(levelname)s %(message)s', 
+    datefmt='%m/%d/%Y %I:%M:%S %p', 
+    encoding='utf-8', 
+    level=logging.DEBUG)
 # model = inference.InferenceModel()
+logger = logging.getLogger("bot")
 
+def gen_markup(lst: list):
+    logger.debug(f"Generating keyboard markup from {str(lst)}")
+    markup = InlineKeyboardMarkup()
+    markup.row_width = 2
+    but_count = len(lst)
+    for i in range(but_count // 2):
+        markup.add(
+            InlineKeyboardButton(lst[2 * i], callback_data=f"cb_{lst[2 * i]}"), 
+            InlineKeyboardButton(lst[2 * i + 1], callback_data=f"cb_{lst[2 * i + 1]}"), 
+        )
+    if but_count % 2 == 1:
+        markup.add(
+            InlineKeyboardButton(lst[but_count - 1], callback_data=f"cb_{lst[but_count - 1]}")
+        )
+    logger.debug(f"Generated keyboard markup")
+    return markup
 
-@bot.message_handler(commands=['start', 'help'])
-def send_welcome(message):
-    keyboard = types.ReplyKeyboardMarkup(one_time_keyboard=True)
-    button_monika = types.KeyboardButton("Моника")
-    button_chandler = types.KeyboardButton("Чендлер")
-    button_phoebe = types.KeyboardButton("Фиби")
-    button_joye = types.KeyboardButton("Джоуи")
-    button_ross = types.KeyboardButton("Росс")
-    button_rachel = types.KeyboardButton("Рейчел")
-    keyboard.add(button_monika)
-    keyboard.add(button_chandler)
-    keyboard.add(button_phoebe)
-    keyboard.add(button_joye)
-    keyboard.add(button_ross)
-    keyboard.add(button_rachel)
-    bot.reply_to(message, f'Я бот. Приятно познакомиться, {message.from_user.first_name}!\n Здесь ты можешь'
-                          f' пообщаться с одним из героев сериала \"Друзья\". Выбери, с кем бы ты хотел поговорить.',
-                 reply_markup=keyboard)
+@bot.callback_query_handler(func=lambda call: True)
+def callback_query(call):
+    choice = call.data[3:] if isinstance(call.data, str) else None
+    chat_id = call.message.chat.id
+    msg_id = call.message.id
 
+    if choice is not None:
+        bot.answer_callback_query(call.id, f"Bot will talk like: {choice}")
+        db.update(chat_id, character=choice, state="Set_Character")
+    
+    bot.edit_message_reply_markup(chat_id=chat_id, message_id=msg_id)
+    reply = f"Бот будет говорить как: {choice}"
+    bot.send_message(chat_id, text=reply, reply_to_message_id=msg_id)
+    logger.info(f"Replied to {chat_id} with:{reply}")
 
-
-
-
-# @bot.message_handler(commands=['reload_model'])
-# def sst_request(message):
-#     importlib.reload(inference)
-#     model = inference.InferenceModel()
-#     bot.reply_to(message, f'{message.from_user.first_name}, успех, модель перезагружена из checkpoint {model.checkpoint_path}')
-
-
-@bot.message_handler(content_types=['text'])
-def get_text_messages(message):
-    mod_message = message.text.lower()
-    mod_message = mod_message.translate(str.maketrans('','', string.punctuation))
-    if mod_message == 'моника':
-        pass
-        # bot.send_message(message.from_user.id, 'Привет!')
-    else:
-        pass
-        # bot.send_message(message.from_user.id, 'Не понимаю, что это значит.')
-
-
-# @bot.message_handler(content_types=['voice'])
-# def voice_processing(message):
-#     file_info = bot.get_file(message.voice.file_id)
-#     file = requests.get('https://api.telegram.org/file/bot{0}/{1}'.format(TELEGRAM_API_TOKEN, file_info.file_path))
-#     user_name = message.from_user.username
-#     user_folder = os.path.join(AUDIO_FOLDER, user_name)
-#     if not os.path.isdir(user_folder):
-#         os.mkdir(user_folder)
-#
-#     if not os.listdir(user_folder):
-#         new_id = 0
-#     else:
-#         files = glob.glob(os.path.join(user_folder, "*"))
-#         latest_file = max(files, key=os.path.getctime)
-#         new_id = int(os.path.splitext(os.path.basename(latest_file))[0]) + 1
-#
-#     filename = os.path.join(user_folder, f"{new_id}.ogg")
-#     with open(filename, "wb+") as f:
-#         f.write(file.content)
-#     # text = model.run(os.path.abspath(filename))
-#     user_folder = os.path.join(TEXT_FOLDER, user_name)
-#     if not os.path.isdir(user_folder):
-#         os.mkdir(user_folder)
-#
-#     if not os.listdir(user_folder):
-#         new_id = 0
-#     else:
-#         files = glob.glob(os.path.join(user_folder, "*"))
-#         latest_file = max(files, key=os.path.getctime)
-#         new_id = int(os.path.splitext(os.path.basename(latest_file))[0]) + 1
-#
-#     filename = os.path.join(user_folder, f"{new_id}.txt")
-#     with open(filename, "w+") as f:
-#         f.write(text)
-#         f.write("\n")
-#     bot.send_message(message.from_user.id, f'Распознанный текст: {text}.')
-
+@bot.message_handler(func=lambda message: True)
+def message_handler(message):
+    logger.info(f"Got msg from {message.chat.id}:{message.text}")
+    msg = bot.send_message(message.chat.id, "Выберите героя, по образу которого будет говорить бот", reply_markup=gen_markup(main_characters))
+    
 
 if __name__ == "__main__":
-
-    bot.polling(none_stop=True)
-
+    try:
+        bot.polling(none_stop=True)
+    except:
+        print("Ok")
+        db.flush()
+        print("Ok")

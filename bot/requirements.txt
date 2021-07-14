@@ -1,3 +1,4 @@
-pytelegrambotapi==3.6.6
+pyTelegramBotApi
 requests
 torch
+pandas
