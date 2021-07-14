@@ -1,0 +1,3 @@
+pytelegrambotapi==3.6.6
+requests
+torch
