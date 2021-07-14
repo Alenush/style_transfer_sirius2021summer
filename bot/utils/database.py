@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import logging
 
-UPDATES_BEFORE_FLUSH=10
+UPDATES_BEFORE_FLUSH=1
 logging.basicConfig(
     filename='bot/bot.log', 
     format='%(name)s %(asctime)s %(levelname)s %(message)s', 
@@ -58,6 +58,5 @@ class Database:
 
     def flush(self):
         logger.debug(f"Flushing the db to {self.filename}")
-        if self.data:
-            self.data.to_csv(self.filename, encoding='utf-8')
-            logger.debug("Flush complete")
+        self.data.to_csv(self.filename, encoding='utf-8')
+        logger.debug("Flush complete")

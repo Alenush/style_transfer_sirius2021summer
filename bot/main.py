@@ -46,12 +46,11 @@ def callback_query(call):
 
     if choice is not None:
         bot.answer_callback_query(call.id, f"Bot will talk like: {choice}")
-        db.update(chat_id, character=choice, state="Set_Character")
-    
-    bot.edit_message_reply_markup(chat_id=chat_id, message_id=msg_id)
-    reply = f"Бот будет говорить как: {choice}"
-    bot.send_message(chat_id, text=reply, reply_to_message_id=msg_id)
-    logger.info(f"Replied to {chat_id} with:{reply}")
+        bot.edit_message_reply_markup(chat_id=chat_id, message_id=msg_id)
+        reply = f"Бот будет говорить как: {choice}"
+        msg = bot.send_message(chat_id, text=reply, reply_to_message_id=msg_id)
+        db.update(chat_id, character=choice, last_msg=reply, last_sent_msg_id=msg.message_id, state="Set_Character")
+        logger.info(f"Replied to {chat_id} with:{reply}")
 
 @bot.message_handler(func=lambda message: True)
 def message_handler(message):
