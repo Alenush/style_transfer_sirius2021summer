@@ -1,9 +1,9 @@
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-from utils.token import obtain_token
 from utils.database import Database
-
+from utils.exceptions import BotLogicError
+from utils.token import obtain_token
 from utils.model import load_models
 
 import logging
@@ -14,7 +14,7 @@ main_characters = ['ДЖОУИ', 'МОНИКА', 'РЕЙЧЕЛ', 'РОСС', 'Ф
 bot = telebot.TeleBot(TELEGRAM_API_TOKEN)
 db = Database("bot/data/db.csv")
 models = load_models({
-    'ФИБИ': "bot/models/Phoebe_large_mono"
+    'ФИБИ': "../gdrive/MyDrive/Style_Transfer_Models/gpt_large/mono/Phoebe_large_mono/"
 })
 
 logging.basicConfig(
@@ -164,7 +164,7 @@ def message_handler(message):
         )
     else:
         logger.fatal("Unknown state")
-        raise RuntimeError("Unknown state")
+        raise BotLogicError("Unknown state")
 
 
 if __name__ == "__main__":

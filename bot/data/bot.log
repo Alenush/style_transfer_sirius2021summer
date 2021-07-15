@@ -381,3 +381,4 @@ bot.db 07/15/2021 10:10:10 AM DEBUG Flushing the db to bot/db.csv
 bot.db 07/15/2021 10:10:10 AM DEBUG Flush complete
 bot 07/15/2021 10:10:10 AM DEBUG Flushed the db
 bot 07/15/2021 10:10:10 AM INFO End of session
+bot.db 07/15/2021 01:53:18 PM INFO Read db from bot/data/db.csv

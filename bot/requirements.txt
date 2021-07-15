@@ -3,5 +3,4 @@ pyTelegramBotApi
 requests
 setuptools_rust
 torch>=1.4.0
-tokenizers
-transformers==2.5.1
+transformers
