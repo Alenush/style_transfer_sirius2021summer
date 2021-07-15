@@ -35,7 +35,7 @@ class Model:
         return generated_text
 
 
-def load_models(names: dict) -> dict[Model]:
+def load_models(names: dict) -> dict:
     mds = dict()
     for name, model_name in names.items():
         mds[name] = Model(model_name)
