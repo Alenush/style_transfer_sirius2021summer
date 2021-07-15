@@ -9,6 +9,7 @@ logging.basicConfig(
     filename='bot/data/bot.log',
     format='%(name)s %(asctime)s %(levelname)s %(message)s',
     datefmt='%m/%d/%Y %I:%M:%S %p',
+    encoding='utf-8',
     level=logging.DEBUG)
 logger = logging.getLogger("bot.db")
 

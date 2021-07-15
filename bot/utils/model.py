@@ -9,12 +9,16 @@ torch.manual_seed(42)
 
 
 class Model:
-    def __init__(self, model_name) -> None:
+    def __init__(self, model_name):
+        """
         self.tok = GPT2Tokenizer.from_pretrained(model_name)
         self.model = GPT2LMHeadModel.from_pretrained(model_name)
         self.model.cuda()
+        """
+        pass
 
     def get_reply(self, text) -> str:
+        """
         text = f"HEДРУГ: {text}\nФИБИ:"
 
         generated_text = ""
@@ -33,6 +37,8 @@ class Model:
             else:
                 raise ModelError("Some error occured!")
         return generated_text
+        """
+        return "text"
 
 
 def load_models(names: dict) -> dict:

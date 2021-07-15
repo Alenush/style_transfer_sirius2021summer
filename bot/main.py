@@ -11,16 +11,24 @@ import logging
 
 TELEGRAM_API_TOKEN = obtain_token()
 main_characters = ['ДЖОУИ', 'МОНИКА', 'РЕЙЧЕЛ', 'РОСС', 'ФИБИ', 'ЧЕНДЛЕР']
+reaction = ["👎", "👍"]
+
 bot = telebot.TeleBot(TELEGRAM_API_TOKEN)
 db = Database("bot/data/db.csv")
 models = load_models({
-    'ФИБИ': "../gdrive/MyDrive/Style_Transfer_Models/gpt_large/mono/Phoebe_large_mono/"
+    'ФИБИ': "",
+    'ДЖОУИ': "",
+    'МОНИКА': '',
+    'РЕЙЧЕЛ': "",
+    'РОСС': "",
+    'ЧЕНДЛЕР': ''
 })
 
 logging.basicConfig(
     filename='bot/data/bot.log',
     format='%(name)s %(asctime)s %(levelname)s %(message)s',
     datefmt='%m/%d/%Y %I:%M:%S %p',
+    encoding='utf-8',
     level=logging.DEBUG)
 # model = inference.InferenceModel()
 logger = logging.getLogger("bot")
@@ -64,8 +72,8 @@ def callback_query(call):
     chat_id = call.message.chat.id
     msg_id = call.message.id
 
-    if choice is not None:
-        bot.answer_callback_query(call.id, f"Bot will talk like: {choice}")
+    if choice in main_characters:
+        bot.answer_callback_query(call.id, f"Бот будет говорить как: {choice}")
         bot.edit_message_reply_markup(chat_id=chat_id, message_id=msg_id)
         reply = f"Бот будет говорить как: {choice}"
         msg = bot.send_message(chat_id, text=reply, reply_to_message_id=msg_id)
@@ -77,6 +85,22 @@ def callback_query(call):
             state="SetCharacter"
         )
         logger.info(f"Replied to {chat_id} with:{reply}")
+    elif choice in reaction:
+        bot.answer_callback_query(call.id, f"Вы оценили предыдущее сообщение: {choice}")
+        bot.edit_message_reply_markup(chat_id=chat_id, message_id=msg_id)
+
+        rated_msg = db.get(chat_id)["last_msg"]
+
+        reply = f"Скажите что-нибудь еще?)"
+        msg = bot.send_message(chat_id, text=reply, reply_to_message_id=msg_id)
+        db.update(
+            chat_id,
+            character=choice,
+            last_msg=reply,
+            last_sent_msg_id=msg.message_id,
+            state="Talking"
+        )
+        logger.info(f"Rated {rated_msg} with: {choice}")
 
 
 @bot.message_handler(func=lambda message: True)
@@ -88,7 +112,7 @@ def message_handler(message):
     data = db.get(chat_id)
 
     if data["state"] == "" or (
-       data["state"] == "Talking" and msg_text == "/change_hero"):
+       data["state"] == "Talking" and msg_text == "/start"):
 
         reply_text = "Выберите героя, по образу которого будет говорить бот"
 
@@ -127,7 +151,6 @@ def message_handler(message):
         )
         db.update(
             chat_id,
-            character="",
             last_msg=reply_text,
             last_sent_msg_id=msg.message_id,
             state="Talking"
@@ -141,7 +164,6 @@ def message_handler(message):
         )
         db.update(
             chat_id,
-            character="",
             last_msg=reply_text,
             last_sent_msg_id=msg.message_id,
             state="Talking"
@@ -152,11 +174,10 @@ def message_handler(message):
         msg = bot.send_message(
             chat_id,
             reply_text,
-            reply_markup=gen_markup(["👎", "👍"])
+            reply_markup=gen_markup(reaction)
         )
         db.update(
             chat_id,
-            character="",
             last_msg=reply_text,
             last_sent_msg_id=msg.message_id,
             state="Talking"
