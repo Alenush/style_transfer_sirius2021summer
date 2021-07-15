@@ -20,7 +20,7 @@ models = load_models({
     'ДЖОУИ': "",
     'МОНИКА': '',
     'РЕЙЧЕЛ': "",
-    'РОСС': "",
+    'РОСС': "bot/models/Ross_mono_replics_cleaned",
     'ЧЕНДЛЕР': ''
 })
 
@@ -95,7 +95,6 @@ def callback_query(call):
         msg = bot.send_message(chat_id, text=reply, reply_to_message_id=msg_id)
         db.update(
             chat_id,
-            character=choice,
             last_msg=reply,
             last_sent_msg_id=msg.message_id,
             state="Talking"
@@ -110,8 +109,9 @@ def message_handler(message):
     chat_id = message.chat.id
     msg_text = message.text
     data = db.get(chat_id)
+    print(data)
 
-    if data["state"] == "" or (
+    if data is None or data["state"] == "" or (
        data["state"] == "Talking" and msg_text == "/start"):
 
         reply_text = "Выберите героя, по образу которого будет говорить бот"
@@ -189,8 +189,10 @@ def message_handler(message):
 
 if __name__ == "__main__":
     logger.info("start of session")
-    try:
-        bot.polling(none_stop=True)
+    
+    bot.polling(none_stop=True)
+    
+    """
     except Exception as e:
         logger.warning(f"Stopping the chat bot because of {e}")
     finally:
@@ -198,3 +200,4 @@ if __name__ == "__main__":
         db.flush()
         logger.debug("Flushed the db")
         logger.info("End of session")
+    """

@@ -601,3 +601,728 @@ bot.db 07/15/2021 03:27:54 PM DEBUG Flushing the db to bot/data/db.csv
 bot.db 07/15/2021 03:27:54 PM DEBUG Flush complete
 bot 07/15/2021 03:27:54 PM DEBUG Flushed the db
 bot 07/15/2021 03:27:54 PM INFO End of session
+bot.db 07/15/2021 05:17:10 PM INFO Read db from bot/data/db.csv
+bot 07/15/2021 05:17:10 PM INFO start of session
+urllib3.connectionpool 07/15/2021 05:17:10 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:17:10 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 784
+bot 07/15/2021 05:17:10 PM INFO Got msg from 77444360:/start
+bot 07/15/2021 05:17:10 PM INFO Got msg from 77444360:/start
+bot.db 07/15/2021 05:17:10 PM DEBUG Getting 77444360 row from db
+bot.db 07/15/2021 05:17:10 PM DEBUG Getting 77444360 row from db
+bot 07/15/2021 05:17:10 PM WARNING Stopping the chat bot because of 'NoneType' object is not subscriptable
+bot 07/15/2021 05:17:10 PM DEBUG Flushing the db
+bot.db 07/15/2021 05:17:10 PM DEBUG Flushing the db to bot/data/db.csv
+bot.db 07/15/2021 05:17:10 PM DEBUG Flush complete
+bot 07/15/2021 05:17:10 PM DEBUG Flushed the db
+bot 07/15/2021 05:17:10 PM INFO End of session
+bot.db 07/15/2021 05:18:03 PM INFO Read db from bot/data/db.csv
+bot 07/15/2021 05:18:03 PM INFO start of session
+urllib3.connectionpool 07/15/2021 05:18:03 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:18:24 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:18:28 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 423
+bot 07/15/2021 05:18:28 PM INFO Got msg from 415713765:/start
+bot.db 07/15/2021 05:18:28 PM DEBUG Getting 415713765 row from db
+bot 07/15/2021 05:18:28 PM DEBUG Generating keyboard markup from ['ДЖОУИ', 'МОНИКА', 'РЕЙЧЕЛ', 'РОСС', 'ФИБИ', 'ЧЕНДЛЕР']
+bot 07/15/2021 05:18:28 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:18:28 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:18:28 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%92%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5+%D0%B3%D0%B5%D1%80%D0%BE%D1%8F%2C+%D0%BF%D0%BE+%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D1%83+%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%BE%D0%B3%D0%BE+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%B1%D0%BE%D1%82&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0414%5Cu0416%5Cu041e%5Cu0423%5Cu0418%22%2C+%22callback_data%22%3A+%22cb_%5Cu0414%5Cu0416%5Cu041e%5Cu0423%5Cu0418%22%7D%2C+%7B%22text%22%3A+%22%5Cu041c%5Cu041e%5Cu041d%5Cu0418%5Cu041a%5Cu0410%22%2C+%22callback_data%22%3A+%22cb_%5Cu041c%5Cu041e%5Cu041d%5Cu0418%5Cu041a%5Cu0410%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0420%5Cu0415%5Cu0419%5Cu0427%5Cu0415%5Cu041b%22%2C+%22callback_data%22%3A+%22cb_%5Cu0420%5Cu0415%5Cu0419%5Cu0427%5Cu0415%5Cu041b%22%7D%2C+%7B%22text%22%3A+%22%5Cu0420%5Cu041e%5Cu0421%5Cu0421%22%2C+%22callback_data%22%3A+%22cb_%5Cu0420%5Cu041e%5Cu0421%5Cu0421%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0424%5Cu0418%5Cu0411%5Cu0418%22%2C+%22callback_data%22%3A+%22cb_%5Cu0424%5Cu0418%5Cu0411%5Cu0418%22%7D%2C+%7B%22text%22%3A+%22%5Cu0427%5Cu0415%5Cu041d%5Cu0414%5Cu041b%5Cu0415%5Cu0420%22%2C+%22callback_data%22%3A+%22cb_%5Cu0427%5Cu0415%5Cu041d%5Cu0414%5Cu041b%5Cu0415%5Cu0420%22%7D%5D%5D%7D HTTP/1.1" 200 1187
+bot.db 07/15/2021 05:18:28 PM DEBUG Updating 415713765 state with ['', 203, 'Выберите героя, по образу которого будет говорить бот', 'ChooseCharacter']
+urllib3.connectionpool 07/15/2021 05:18:30 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714174&timeout=20 HTTP/1.1" 200 1489
+urllib3.connectionpool 07/15/2021 05:18:30 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1785477028476457280&text=%D0%91%D0%BE%D1%82+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%BA%D0%B0%D0%BA%3A+%D0%94%D0%96%D0%9E%D0%A3%D0%98 HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:18:30 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=415713765&message_id=203 HTTP/1.1" 200 579
+urllib3.connectionpool 07/15/2021 05:18:30 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%91%D0%BE%D1%82+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%BA%D0%B0%D0%BA%3A+%D0%94%D0%96%D0%9E%D0%A3%D0%98&reply_to_message_id=203 HTTP/1.1" 200 1005
+bot.db 07/15/2021 05:18:30 PM DEBUG Updating 415713765 state with ['ДЖОУИ', 204, 'Бот будет говорить как: ДЖОУИ', 'SetCharacter']
+bot 07/15/2021 05:18:30 PM INFO Replied to 415713765 with:Бот будет говорить как: ДЖОУИ
+urllib3.connectionpool 07/15/2021 05:18:50 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714175&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:19:11 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714175&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:19:31 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714175&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:19:51 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714175&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:20:11 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714175&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:20:31 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714175&timeout=20 HTTP/1.1" 200 23
+bot.db 07/15/2021 05:20:48 PM INFO Read db from bot/data/db.csv
+bot 07/15/2021 05:20:48 PM INFO start of session
+urllib3.connectionpool 07/15/2021 05:20:48 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:20:51 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 395
+bot 07/15/2021 05:20:51 PM INFO Got msg from 415713765:Привет
+bot.db 07/15/2021 05:20:51 PM DEBUG Getting 415713765 row from db
+bot.db 07/15/2021 05:24:08 PM INFO Read db from bot/data/db.csv
+bot 07/15/2021 05:24:08 PM INFO start of session
+urllib3.connectionpool 07/15/2021 05:24:08 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:24:11 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 395
+bot 07/15/2021 05:24:11 PM INFO Got msg from 415713765:привет
+bot.db 07/15/2021 05:24:11 PM DEBUG Getting 415713765 row from db
+bot.db 07/15/2021 05:24:29 PM INFO Read db from bot/data/db.csv
+bot 07/15/2021 05:24:29 PM INFO start of session
+urllib3.connectionpool 07/15/2021 05:24:29 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:24:32 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 395
+bot 07/15/2021 05:24:32 PM INFO Got msg from 415713765:привет
+bot.db 07/15/2021 05:24:32 PM DEBUG Getting 415713765 row from db
+bot.db 07/15/2021 05:24:50 PM INFO Read db from bot/data/db.csv
+bot 07/15/2021 05:24:50 PM INFO start of session
+urllib3.connectionpool 07/15/2021 05:24:50 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:24:51 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 395
+bot 07/15/2021 05:24:51 PM INFO Got msg from 415713765:Привет
+bot.db 07/15/2021 05:24:51 PM DEBUG Getting 415713765 row from db
+bot.db 07/15/2021 05:25:36 PM INFO Read db from bot/data/db.csv
+bot 07/15/2021 05:25:36 PM INFO start of session
+urllib3.connectionpool 07/15/2021 05:25:36 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:25:39 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 395
+bot 07/15/2021 05:25:39 PM INFO Got msg from 415713765:Привет
+bot.db 07/15/2021 05:25:39 PM DEBUG Getting 415713765 row from db
+bot.db 07/15/2021 05:26:27 PM INFO Read db from bot/data/db.csv
+bot 07/15/2021 05:26:27 PM INFO start of session
+urllib3.connectionpool 07/15/2021 05:26:27 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:26:29 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 395
+bot 07/15/2021 05:26:29 PM INFO Got msg from 415713765:привет
+bot.db 07/15/2021 05:26:29 PM DEBUG Getting 415713765 row from db
+urllib3.connectionpool 07/15/2021 05:26:29 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:26:29 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=Model+or+Tokenizer+not+working HTTP/1.1" 200 308
+bot.db 07/15/2021 05:26:29 PM DEBUG Updating 415713765 state with ['ФИБИ', 211, 'Model or Tokenizer not working', 'Talking']
+bot 07/15/2021 05:26:29 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:26:29 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:26:29 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 555
+bot.db 07/15/2021 05:26:29 PM DEBUG Updating 415713765 state with ['ФИБИ', 212, 'Оцените качество фразы', 'Talking']
+urllib3.connectionpool 07/15/2021 05:26:34 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714181&timeout=20 HTTP/1.1" 200 839
+urllib3.connectionpool 07/15/2021 05:26:34 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1785477025676556286&text=%D0%92%D1%8B+%D0%BE%D1%86%D0%B5%D0%BD%D0%B8%D0%BB%D0%B8+%D0%BF%D1%80%D0%B5%D0%B4%D1%8B%D0%B4%D1%83%D1%89%D0%B5%D0%B5+%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%3A+%F0%9F%91%8D HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:26:34 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=415713765&message_id=212 HTTP/1.1" 200 423
+bot.db 07/15/2021 05:26:34 PM DEBUG Getting 415713765 row from db
+urllib3.connectionpool 07/15/2021 05:26:34 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%A1%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5+%D1%87%D1%82%D0%BE-%D0%BD%D0%B8%D0%B1%D1%83%D0%B4%D1%8C+%D0%B5%D1%89%D0%B5%3F%29&reply_to_message_id=212 HTTP/1.1" 200 819
+bot.db 07/15/2021 05:26:34 PM DEBUG Updating 415713765 state with ['👍', 213, 'Скажите что-нибудь еще?)', 'Talking']
+bot 07/15/2021 05:26:34 PM INFO Rated Оцените качество фразы with: 👍
+urllib3.connectionpool 07/15/2021 05:26:44 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714182&timeout=20 HTTP/1.1" 200 391
+bot 07/15/2021 05:26:44 PM INFO Got msg from 415713765:Как ты?
+bot.db 07/15/2021 05:26:44 PM DEBUG Getting 415713765 row from db
+bot.db 07/15/2021 05:27:27 PM INFO Read db from bot/data/db.csv
+bot 07/15/2021 05:27:27 PM INFO start of session
+urllib3.connectionpool 07/15/2021 05:27:27 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:27:29 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 409 143
+TeleBot 07/15/2021 05:27:29 PM ERROR A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+urllib3.connectionpool 07/15/2021 05:27:30 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 395
+bot 07/15/2021 05:27:30 PM INFO Got msg from 415713765:привет
+bot.db 07/15/2021 05:27:30 PM DEBUG Getting 415713765 row from db
+urllib3.connectionpool 07/15/2021 05:27:30 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:27:30 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=Model+or+Tokenizer+not+working HTTP/1.1" 200 308
+bot.db 07/15/2021 05:27:30 PM DEBUG Updating 415713765 state with ['ФИБИ', 216, 'Model or Tokenizer not working', 'Talking']
+bot 07/15/2021 05:27:30 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:27:30 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:27:30 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 555
+bot.db 07/15/2021 05:27:30 PM DEBUG Updating 415713765 state with ['ФИБИ', 217, 'Оцените качество фразы', 'Talking']
+urllib3.connectionpool 07/15/2021 05:27:33 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714184&timeout=20 HTTP/1.1" 200 839
+urllib3.connectionpool 07/15/2021 05:27:33 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1785477026924882911&text=%D0%92%D1%8B+%D0%BE%D1%86%D0%B5%D0%BD%D0%B8%D0%BB%D0%B8+%D0%BF%D1%80%D0%B5%D0%B4%D1%8B%D0%B4%D1%83%D1%89%D0%B5%D0%B5+%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%3A+%F0%9F%91%8D HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:27:33 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=415713765&message_id=217 HTTP/1.1" 200 423
+bot.db 07/15/2021 05:27:33 PM DEBUG Getting 415713765 row from db
+urllib3.connectionpool 07/15/2021 05:27:33 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714185&timeout=20 HTTP/1.1" 409 143
+TeleBot 07/15/2021 05:27:33 PM ERROR A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+urllib3.connectionpool 07/15/2021 05:27:33 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%A1%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5+%D1%87%D1%82%D0%BE-%D0%BD%D0%B8%D0%B1%D1%83%D0%B4%D1%8C+%D0%B5%D1%89%D0%B5%3F%29&reply_to_message_id=217 HTTP/1.1" 200 819
+bot.db 07/15/2021 05:27:33 PM DEBUG Updating 415713765 state with ['ФИБИ', 218, 'Скажите что-нибудь еще?)', 'Talking']
+bot 07/15/2021 05:27:33 PM INFO Rated Оцените качество фразы with: 👍
+urllib3.connectionpool 07/15/2021 05:27:37 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714185&timeout=20 HTTP/1.1" 409 143
+TeleBot 07/15/2021 05:27:37 PM ERROR A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+urllib3.connectionpool 07/15/2021 05:27:41 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714185&timeout=20 HTTP/1.1" 200 423
+bot 07/15/2021 05:27:41 PM INFO Got msg from 415713765:/start
+bot.db 07/15/2021 05:27:41 PM DEBUG Getting 415713765 row from db
+bot 07/15/2021 05:27:41 PM DEBUG Generating keyboard markup from ['ДЖОУИ', 'МОНИКА', 'РЕЙЧЕЛ', 'РОСС', 'ФИБИ', 'ЧЕНДЛЕР']
+bot 07/15/2021 05:27:41 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:27:41 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:27:41 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%92%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5+%D0%B3%D0%B5%D1%80%D0%BE%D1%8F%2C+%D0%BF%D0%BE+%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D1%83+%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%BE%D0%B3%D0%BE+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%B1%D0%BE%D1%82&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0414%5Cu0416%5Cu041e%5Cu0423%5Cu0418%22%2C+%22callback_data%22%3A+%22cb_%5Cu0414%5Cu0416%5Cu041e%5Cu0423%5Cu0418%22%7D%2C+%7B%22text%22%3A+%22%5Cu041c%5Cu041e%5Cu041d%5Cu0418%5Cu041a%5Cu0410%22%2C+%22callback_data%22%3A+%22cb_%5Cu041c%5Cu041e%5Cu041d%5Cu0418%5Cu041a%5Cu0410%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0420%5Cu0415%5Cu0419%5Cu0427%5Cu0415%5Cu041b%22%2C+%22callback_data%22%3A+%22cb_%5Cu0420%5Cu0415%5Cu0419%5Cu0427%5Cu0415%5Cu041b%22%7D%2C+%7B%22text%22%3A+%22%5Cu0420%5Cu041e%5Cu0421%5Cu0421%22%2C+%22callback_data%22%3A+%22cb_%5Cu0420%5Cu041e%5Cu0421%5Cu0421%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0424%5Cu0418%5Cu0411%5Cu0418%22%2C+%22callback_data%22%3A+%22cb_%5Cu0424%5Cu0418%5Cu0411%5Cu0418%22%7D%2C+%7B%22text%22%3A+%22%5Cu0427%5Cu0415%5Cu041d%5Cu0414%5Cu041b%5Cu0415%5Cu0420%22%2C+%22callback_data%22%3A+%22cb_%5Cu0427%5Cu0415%5Cu041d%5Cu0414%5Cu041b%5Cu0415%5Cu0420%22%7D%5D%5D%7D HTTP/1.1" 200 1187
+bot.db 07/15/2021 05:27:41 PM DEBUG Updating 415713765 state with ['', 220, 'Выберите героя, по образу которого будет говорить бот', 'ChooseCharacter']
+urllib3.connectionpool 07/15/2021 05:27:42 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714186&timeout=20 HTTP/1.1" 409 143
+TeleBot 07/15/2021 05:27:42 PM ERROR A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+urllib3.connectionpool 07/15/2021 05:27:45 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714186&timeout=20 HTTP/1.1" 200 1483
+urllib3.connectionpool 07/15/2021 05:27:45 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1785477026585785680&text=%D0%91%D0%BE%D1%82+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%BA%D0%B0%D0%BA%3A+%D0%A0%D0%9E%D0%A1%D0%A1 HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:27:45 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=415713765&message_id=220 HTTP/1.1" 200 579
+urllib3.connectionpool 07/15/2021 05:27:45 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%91%D0%BE%D1%82+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%BA%D0%B0%D0%BA%3A+%D0%A0%D0%9E%D0%A1%D0%A1&reply_to_message_id=220 HTTP/1.1" 200 999
+bot.db 07/15/2021 05:27:45 PM DEBUG Updating 415713765 state with ['РОСС', 221, 'Бот будет говорить как: РОСС', 'SetCharacter']
+bot 07/15/2021 05:27:45 PM INFO Replied to 415713765 with:Бот будет говорить как: РОСС
+urllib3.connectionpool 07/15/2021 05:27:50 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714187&timeout=20 HTTP/1.1" 200 395
+bot 07/15/2021 05:27:50 PM INFO Got msg from 415713765:Хорошо
+bot.db 07/15/2021 05:27:50 PM DEBUG Getting 415713765 row from db
+urllib3.connectionpool 07/15/2021 05:27:50 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2C+%D1%8F+%D0%A0%D0%9E%D0%A1%D0%A1.+%D0%94%D0%B0%D0%B2%D0%B0%D0%B9+%D0%BE%D0%B1%D1%89%D0%B0%D1%82%D1%8C%D1%81%D1%8F%3F HTTP/1.1" 200 429
+bot.db 07/15/2021 05:27:50 PM DEBUG Updating 415713765 state with ['РОСС', 223, 'Привет, я РОСС. Давай общаться?', 'Talking']
+urllib3.connectionpool 07/15/2021 05:27:59 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714188&timeout=20 HTTP/1.1" 200 447
+bot 07/15/2021 05:27:59 PM INFO Got msg from 415713765:Как тебе в Москве?
+bot.db 07/15/2021 05:27:59 PM DEBUG Getting 415713765 row from db
+urllib3.connectionpool 07/15/2021 05:27:59 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=Model+or+Tokenizer+not+working HTTP/1.1" 200 308
+bot.db 07/15/2021 05:27:59 PM DEBUG Updating 415713765 state with ['РОСС', 225, 'Model or Tokenizer not working', 'Talking']
+bot 07/15/2021 05:27:59 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:27:59 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:27:59 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 555
+bot.db 07/15/2021 05:27:59 PM DEBUG Updating 415713765 state with ['РОСС', 226, 'Оцените качество фразы', 'Talking']
+urllib3.connectionpool 07/15/2021 05:28:06 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714189&timeout=20 HTTP/1.1" 409 143
+TeleBot 07/15/2021 05:28:06 PM ERROR A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+urllib3.connectionpool 07/15/2021 05:28:09 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714189&timeout=20 HTTP/1.1" 409 143
+TeleBot 07/15/2021 05:28:10 PM ERROR A request to the Telegram API was unsuccessful. Error code: 409. Description: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+urllib3.connectionpool 07/15/2021 05:28:30 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714189&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:28:50 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714189&timeout=20 HTTP/1.1" 200 23
+bot.db 07/15/2021 05:29:04 PM INFO Read db from bot/data/db.csv
+bot.db 07/15/2021 05:29:22 PM INFO Read db from bot/data/db.csv
+bot 07/15/2021 05:29:24 PM INFO start of session
+urllib3.connectionpool 07/15/2021 05:29:24 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:29:40 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 395
+bot 07/15/2021 05:29:40 PM INFO Got msg from 415713765:Привет
+bot.db 07/15/2021 05:29:40 PM DEBUG Getting 415713765 row from db
+urllib3.connectionpool 07/15/2021 05:29:40 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:29:40 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=Model+or+Tokenizer+not+working HTTP/1.1" 200 308
+bot.db 07/15/2021 05:29:40 PM DEBUG Updating 415713765 state with ['ФИБИ', 228, 'Model or Tokenizer not working', 'Talking']
+bot 07/15/2021 05:29:40 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:29:40 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:29:40 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 555
+bot.db 07/15/2021 05:29:40 PM DEBUG Updating 415713765 state with ['ФИБИ', 229, 'Оцените качество фразы', 'Talking']
+urllib3.connectionpool 07/15/2021 05:29:44 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714190&timeout=20 HTTP/1.1" 200 839
+urllib3.connectionpool 07/15/2021 05:29:45 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1785477026132109782&text=%D0%92%D1%8B+%D0%BE%D1%86%D0%B5%D0%BD%D0%B8%D0%BB%D0%B8+%D0%BF%D1%80%D0%B5%D0%B4%D1%8B%D0%B4%D1%83%D1%89%D0%B5%D0%B5+%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%3A+%F0%9F%91%8D HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:29:45 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=415713765&message_id=229 HTTP/1.1" 200 423
+bot.db 07/15/2021 05:29:45 PM DEBUG Getting 415713765 row from db
+urllib3.connectionpool 07/15/2021 05:29:45 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%A1%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5+%D1%87%D1%82%D0%BE-%D0%BD%D0%B8%D0%B1%D1%83%D0%B4%D1%8C+%D0%B5%D1%89%D0%B5%3F%29&reply_to_message_id=229 HTTP/1.1" 200 819
+bot.db 07/15/2021 05:29:45 PM DEBUG Updating 415713765 state with ['ФИБИ', 230, 'Скажите что-нибудь еще?)', 'Talking']
+bot 07/15/2021 05:29:45 PM INFO Rated Оцените качество фразы with: 👍
+urllib3.connectionpool 07/15/2021 05:29:53 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714191&timeout=20 HTTP/1.1" 200 403
+bot 07/15/2021 05:29:53 PM INFO Got msg from 415713765:Как дела?
+bot.db 07/15/2021 05:29:53 PM DEBUG Getting 415713765 row from db
+urllib3.connectionpool 07/15/2021 05:29:53 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:29:53 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=Model+or+Tokenizer+not+working HTTP/1.1" 200 308
+bot.db 07/15/2021 05:29:53 PM DEBUG Updating 415713765 state with ['ФИБИ', 232, 'Model or Tokenizer not working', 'Talking']
+bot 07/15/2021 05:29:53 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:29:53 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:29:53 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 555
+bot.db 07/15/2021 05:29:53 PM DEBUG Updating 415713765 state with ['ФИБИ', 233, 'Оцените качество фразы', 'Talking']
+urllib3.connectionpool 07/15/2021 05:29:55 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714192&timeout=20 HTTP/1.1" 200 839
+urllib3.connectionpool 07/15/2021 05:29:55 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1785477027726075812&text=%D0%92%D1%8B+%D0%BE%D1%86%D0%B5%D0%BD%D0%B8%D0%BB%D0%B8+%D0%BF%D1%80%D0%B5%D0%B4%D1%8B%D0%B4%D1%83%D1%89%D0%B5%D0%B5+%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%3A+%F0%9F%91%8E HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:29:55 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=415713765&message_id=233 HTTP/1.1" 200 423
+bot.db 07/15/2021 05:29:55 PM DEBUG Getting 415713765 row from db
+urllib3.connectionpool 07/15/2021 05:29:56 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%A1%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5+%D1%87%D1%82%D0%BE-%D0%BD%D0%B8%D0%B1%D1%83%D0%B4%D1%8C+%D0%B5%D1%89%D0%B5%3F%29&reply_to_message_id=233 HTTP/1.1" 200 819
+bot.db 07/15/2021 05:29:56 PM DEBUG Updating 415713765 state with ['ФИБИ', 234, 'Скажите что-нибудь еще?)', 'Talking']
+bot 07/15/2021 05:29:56 PM INFO Rated Оцените качество фразы with: 👎
+urllib3.connectionpool 07/15/2021 05:30:15 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714193&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:30:34 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714193&timeout=20 HTTP/1.1" 200 377
+bot 07/15/2021 05:30:34 PM INFO Got msg from 415713765:как
+bot.db 07/15/2021 05:30:34 PM DEBUG Getting 415713765 row from db
+urllib3.connectionpool 07/15/2021 05:30:34 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=Model+or+Tokenizer+not+working HTTP/1.1" 200 308
+bot.db 07/15/2021 05:30:34 PM DEBUG Updating 415713765 state with ['ФИБИ', 236, 'Model or Tokenizer not working', 'Talking']
+bot 07/15/2021 05:30:34 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:30:34 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:30:34 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 555
+bot.db 07/15/2021 05:30:34 PM DEBUG Updating 415713765 state with ['ФИБИ', 237, 'Оцените качество фразы', 'Talking']
+urllib3.connectionpool 07/15/2021 05:30:36 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714194&timeout=20 HTTP/1.1" 200 839
+urllib3.connectionpool 07/15/2021 05:30:36 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1785477026843989884&text=%D0%92%D1%8B+%D0%BE%D1%86%D0%B5%D0%BD%D0%B8%D0%BB%D0%B8+%D0%BF%D1%80%D0%B5%D0%B4%D1%8B%D0%B4%D1%83%D1%89%D0%B5%D0%B5+%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%3A+%F0%9F%91%8E HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:30:36 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=415713765&message_id=237 HTTP/1.1" 200 423
+bot.db 07/15/2021 05:30:36 PM DEBUG Getting 415713765 row from db
+urllib3.connectionpool 07/15/2021 05:30:36 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%A1%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5+%D1%87%D1%82%D0%BE-%D0%BD%D0%B8%D0%B1%D1%83%D0%B4%D1%8C+%D0%B5%D1%89%D0%B5%3F%29&reply_to_message_id=237 HTTP/1.1" 200 819
+bot.db 07/15/2021 05:30:36 PM DEBUG Updating 415713765 state with ['ФИБИ', 238, 'Скажите что-нибудь еще?)', 'Talking']
+bot 07/15/2021 05:30:36 PM INFO Rated Оцените качество фразы with: 👎
+urllib3.connectionpool 07/15/2021 05:30:56 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714195&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:31:16 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714195&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:31:36 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714195&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:31:42 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714195&timeout=20 HTTP/1.1" 200 423
+bot 07/15/2021 05:31:42 PM INFO Got msg from 415713765:/start
+bot.db 07/15/2021 05:31:42 PM DEBUG Getting 415713765 row from db
+bot 07/15/2021 05:31:42 PM DEBUG Generating keyboard markup from ['ДЖОУИ', 'МОНИКА', 'РЕЙЧЕЛ', 'РОСС', 'ФИБИ', 'ЧЕНДЛЕР']
+bot 07/15/2021 05:31:42 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:31:42 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%92%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5+%D0%B3%D0%B5%D1%80%D0%BE%D1%8F%2C+%D0%BF%D0%BE+%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D1%83+%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%BE%D0%B3%D0%BE+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%B1%D0%BE%D1%82&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0414%5Cu0416%5Cu041e%5Cu0423%5Cu0418%22%2C+%22callback_data%22%3A+%22cb_%5Cu0414%5Cu0416%5Cu041e%5Cu0423%5Cu0418%22%7D%2C+%7B%22text%22%3A+%22%5Cu041c%5Cu041e%5Cu041d%5Cu0418%5Cu041a%5Cu0410%22%2C+%22callback_data%22%3A+%22cb_%5Cu041c%5Cu041e%5Cu041d%5Cu0418%5Cu041a%5Cu0410%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0420%5Cu0415%5Cu0419%5Cu0427%5Cu0415%5Cu041b%22%2C+%22callback_data%22%3A+%22cb_%5Cu0420%5Cu0415%5Cu0419%5Cu0427%5Cu0415%5Cu041b%22%7D%2C+%7B%22text%22%3A+%22%5Cu0420%5Cu041e%5Cu0421%5Cu0421%22%2C+%22callback_data%22%3A+%22cb_%5Cu0420%5Cu041e%5Cu0421%5Cu0421%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0424%5Cu0418%5Cu0411%5Cu0418%22%2C+%22callback_data%22%3A+%22cb_%5Cu0424%5Cu0418%5Cu0411%5Cu0418%22%7D%2C+%7B%22text%22%3A+%22%5Cu0427%5Cu0415%5Cu041d%5Cu0414%5Cu041b%5Cu0415%5Cu0420%22%2C+%22callback_data%22%3A+%22cb_%5Cu0427%5Cu0415%5Cu041d%5Cu0414%5Cu041b%5Cu0415%5Cu0420%22%7D%5D%5D%7D HTTP/1.1" 200 1187
+bot.db 07/15/2021 05:31:42 PM DEBUG Updating 415713765 state with ['', 240, 'Выберите героя, по образу которого будет говорить бот', 'ChooseCharacter']
+bot.db 07/15/2021 05:31:42 PM DEBUG Flushing the db to bot/data/db.csv
+bot.db 07/15/2021 05:31:42 PM DEBUG Flush complete
+urllib3.connectionpool 07/15/2021 05:31:45 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714196&timeout=20 HTTP/1.1" 200 1483
+urllib3.connectionpool 07/15/2021 05:31:45 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1785477025622973251&text=%D0%91%D0%BE%D1%82+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%BA%D0%B0%D0%BA%3A+%D0%A0%D0%9E%D0%A1%D0%A1 HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:31:45 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=415713765&message_id=240 HTTP/1.1" 200 579
+urllib3.connectionpool 07/15/2021 05:31:45 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%91%D0%BE%D1%82+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%BA%D0%B0%D0%BA%3A+%D0%A0%D0%9E%D0%A1%D0%A1&reply_to_message_id=240 HTTP/1.1" 200 999
+bot.db 07/15/2021 05:31:45 PM DEBUG Updating 415713765 state with ['РОСС', 241, 'Бот будет говорить как: РОСС', 'SetCharacter']
+bot 07/15/2021 05:31:45 PM INFO Replied to 415713765 with:Бот будет говорить как: РОСС
+urllib3.connectionpool 07/15/2021 05:31:48 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714197&timeout=20 HTTP/1.1" 200 371
+bot 07/15/2021 05:31:48 PM INFO Got msg from 415713765:Ок
+bot.db 07/15/2021 05:31:48 PM DEBUG Getting 415713765 row from db
+urllib3.connectionpool 07/15/2021 05:31:48 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2C+%D1%8F+%D0%A0%D0%9E%D0%A1%D0%A1.+%D0%94%D0%B0%D0%B2%D0%B0%D0%B9+%D0%BE%D0%B1%D1%89%D0%B0%D1%82%D1%8C%D1%81%D1%8F%3F HTTP/1.1" 200 429
+bot.db 07/15/2021 05:31:48 PM DEBUG Updating 415713765 state with ['РОСС', 243, 'Привет, я РОСС. Давай общаться?', 'Talking']
+urllib3.connectionpool 07/15/2021 05:31:51 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714198&timeout=20 HTTP/1.1" 200 389
+bot 07/15/2021 05:31:51 PM INFO Got msg from 415713765:Давай
+bot.db 07/15/2021 05:31:51 PM DEBUG Getting 415713765 row from db
+bot.model 07/15/2021 05:31:54 PM ERROR Tag </s> not found in generated for prompt ФИБИ: 
+urllib3.connectionpool 07/15/2021 05:31:54 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=Generation+failed+on+model+level HTTP/1.1" 200 310
+bot.db 07/15/2021 05:31:54 PM DEBUG Updating 415713765 state with ['РОСС', 245, 'Generation failed on model level', 'Talking']
+bot 07/15/2021 05:31:54 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:31:54 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:31:54 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 555
+bot.db 07/15/2021 05:31:54 PM DEBUG Updating 415713765 state with ['РОСС', 246, 'Оцените качество фразы', 'Talking']
+urllib3.connectionpool 07/15/2021 05:32:11 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714199&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:32:31 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714199&timeout=20 HTTP/1.1" 200 23
+bot.db 07/15/2021 05:32:35 PM INFO Read db from bot/data/db.csv
+bot 07/15/2021 05:32:39 PM INFO start of session
+urllib3.connectionpool 07/15/2021 05:32:39 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:32:40 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 395
+bot 07/15/2021 05:32:40 PM INFO Got msg from 415713765:Привет
+bot.db 07/15/2021 05:32:40 PM DEBUG Getting 415713765 row from db
+urllib3.connectionpool 07/15/2021 05:32:40 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:32:40 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%92%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5+%D0%B3%D0%B5%D1%80%D0%BE%D1%8F+%D0%B2+%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B5+%D0%B2%D1%8B%D1%88%D0%B5 HTTP/1.1" 200 426
+bot.db 07/15/2021 05:32:40 PM DEBUG Updating 415713765 state with ['', 248, 'Выберите героя в опросе выше', 'ChooseCharacter']
+urllib3.connectionpool 07/15/2021 05:32:47 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714200&timeout=20 HTTP/1.1" 200 423
+bot 07/15/2021 05:32:47 PM INFO Got msg from 415713765:/start
+bot.db 07/15/2021 05:32:47 PM DEBUG Getting 415713765 row from db
+urllib3.connectionpool 07/15/2021 05:32:47 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:32:47 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%92%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5+%D0%B3%D0%B5%D1%80%D0%BE%D1%8F+%D0%B2+%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B5+%D0%B2%D1%8B%D1%88%D0%B5 HTTP/1.1" 200 426
+bot.db 07/15/2021 05:32:47 PM DEBUG Updating 415713765 state with ['', 250, 'Выберите героя в опросе выше', 'ChooseCharacter']
+urllib3.connectionpool 07/15/2021 05:33:07 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714201&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:33:27 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714201&timeout=20 HTTP/1.1" 200 23
+bot.db 07/15/2021 05:33:43 PM INFO Read db from bot/data/db.csv
+bot 07/15/2021 05:33:48 PM INFO start of session
+urllib3.connectionpool 07/15/2021 05:33:48 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:33:48 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 423
+bot 07/15/2021 05:33:48 PM INFO Got msg from 415713765:/start
+bot.db 07/15/2021 05:33:48 PM DEBUG Getting 415713765 row from db
+bot 07/15/2021 05:33:48 PM DEBUG Generating keyboard markup from ['ДЖОУИ', 'МОНИКА', 'РЕЙЧЕЛ', 'РОСС', 'ФИБИ', 'ЧЕНДЛЕР']
+bot 07/15/2021 05:33:48 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:33:48 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:33:48 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%92%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5+%D0%B3%D0%B5%D1%80%D0%BE%D1%8F%2C+%D0%BF%D0%BE+%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D1%83+%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%BE%D0%B3%D0%BE+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%B1%D0%BE%D1%82&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0414%5Cu0416%5Cu041e%5Cu0423%5Cu0418%22%2C+%22callback_data%22%3A+%22cb_%5Cu0414%5Cu0416%5Cu041e%5Cu0423%5Cu0418%22%7D%2C+%7B%22text%22%3A+%22%5Cu041c%5Cu041e%5Cu041d%5Cu0418%5Cu041a%5Cu0410%22%2C+%22callback_data%22%3A+%22cb_%5Cu041c%5Cu041e%5Cu041d%5Cu0418%5Cu041a%5Cu0410%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0420%5Cu0415%5Cu0419%5Cu0427%5Cu0415%5Cu041b%22%2C+%22callback_data%22%3A+%22cb_%5Cu0420%5Cu0415%5Cu0419%5Cu0427%5Cu0415%5Cu041b%22%7D%2C+%7B%22text%22%3A+%22%5Cu0420%5Cu041e%5Cu0421%5Cu0421%22%2C+%22callback_data%22%3A+%22cb_%5Cu0420%5Cu041e%5Cu0421%5Cu0421%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0424%5Cu0418%5Cu0411%5Cu0418%22%2C+%22callback_data%22%3A+%22cb_%5Cu0424%5Cu0418%5Cu0411%5Cu0418%22%7D%2C+%7B%22text%22%3A+%22%5Cu0427%5Cu0415%5Cu041d%5Cu0414%5Cu041b%5Cu0415%5Cu0420%22%2C+%22callback_data%22%3A+%22cb_%5Cu0427%5Cu0415%5Cu041d%5Cu0414%5Cu041b%5Cu0415%5Cu0420%22%7D%5D%5D%7D HTTP/1.1" 200 1187
+bot.db 07/15/2021 05:33:48 PM DEBUG Updating 415713765 state with ['', 252, 'Выберите героя, по образу которого будет говорить бот', 'ChooseCharacter']
+urllib3.connectionpool 07/15/2021 05:33:51 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714202&timeout=20 HTTP/1.1" 200 1483
+urllib3.connectionpool 07/15/2021 05:33:51 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1785477025410870842&text=%D0%91%D0%BE%D1%82+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%BA%D0%B0%D0%BA%3A+%D0%A0%D0%9E%D0%A1%D0%A1 HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:33:51 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=415713765&message_id=252 HTTP/1.1" 200 579
+urllib3.connectionpool 07/15/2021 05:33:51 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%91%D0%BE%D1%82+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%BA%D0%B0%D0%BA%3A+%D0%A0%D0%9E%D0%A1%D0%A1&reply_to_message_id=252 HTTP/1.1" 200 999
+bot.db 07/15/2021 05:33:51 PM DEBUG Updating 415713765 state with ['РОСС', 253, 'Бот будет говорить как: РОСС', 'SetCharacter']
+bot 07/15/2021 05:33:51 PM INFO Replied to 415713765 with:Бот будет говорить как: РОСС
+urllib3.connectionpool 07/15/2021 05:33:59 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714203&timeout=20 HTTP/1.1" 200 395
+bot 07/15/2021 05:33:59 PM INFO Got msg from 415713765:Хорошо
+bot.db 07/15/2021 05:33:59 PM DEBUG Getting 415713765 row from db
+urllib3.connectionpool 07/15/2021 05:33:59 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:34:00 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2C+%D1%8F+%D0%A0%D0%9E%D0%A1%D0%A1.+%D0%94%D0%B0%D0%B2%D0%B0%D0%B9+%D0%BE%D0%B1%D1%89%D0%B0%D1%82%D1%8C%D1%81%D1%8F%3F HTTP/1.1" 200 429
+bot.db 07/15/2021 05:34:00 PM DEBUG Updating 415713765 state with ['РОСС', 255, 'Привет, я РОСС. Давай общаться?', 'Talking']
+urllib3.connectionpool 07/15/2021 05:34:03 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714204&timeout=20 HTTP/1.1" 200 389
+bot 07/15/2021 05:34:03 PM INFO Got msg from 415713765:Давай
+bot.db 07/15/2021 05:34:03 PM DEBUG Getting 415713765 row from db
+bot.model 07/15/2021 05:34:06 PM ERROR Tag </s> not found in generated for prompt ФИБИ: 
+urllib3.connectionpool 07/15/2021 05:34:06 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text= HTTP/1.1" 400 80
+TeleBot 07/15/2021 05:34:06 PM ERROR A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: message text is empty
+urllib3.connectionpool 07/15/2021 05:34:23 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714205&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:34:43 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714205&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:35:03 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714205&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:35:23 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714205&timeout=20 HTTP/1.1" 200 23
+bot.db 07/15/2021 05:35:29 PM INFO Read db from bot/data/db.csv
+bot 07/15/2021 05:35:32 PM INFO start of session
+urllib3.connectionpool 07/15/2021 05:35:32 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:35:36 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 395
+bot 07/15/2021 05:35:36 PM INFO Got msg from 415713765:Привет
+bot.db 07/15/2021 05:35:36 PM DEBUG Getting 415713765 row from db
+bot.db 07/15/2021 05:36:17 PM INFO Read db from bot/data/db.csv
+bot 07/15/2021 05:36:22 PM INFO start of session
+urllib3.connectionpool 07/15/2021 05:36:22 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:36:23 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 423
+bot 07/15/2021 05:36:23 PM INFO Got msg from 415713765:/start
+bot.db 07/15/2021 05:36:23 PM DEBUG Getting 415713765 row from db
+bot 07/15/2021 05:36:23 PM DEBUG Generating keyboard markup from ['ДЖОУИ', 'МОНИКА', 'РЕЙЧЕЛ', 'РОСС', 'ФИБИ', 'ЧЕНДЛЕР']
+bot 07/15/2021 05:36:23 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:36:23 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:36:23 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%92%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5+%D0%B3%D0%B5%D1%80%D0%BE%D1%8F%2C+%D0%BF%D0%BE+%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D1%83+%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%BE%D0%B3%D0%BE+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%B1%D0%BE%D1%82&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0414%5Cu0416%5Cu041e%5Cu0423%5Cu0418%22%2C+%22callback_data%22%3A+%22cb_%5Cu0414%5Cu0416%5Cu041e%5Cu0423%5Cu0418%22%7D%2C+%7B%22text%22%3A+%22%5Cu041c%5Cu041e%5Cu041d%5Cu0418%5Cu041a%5Cu0410%22%2C+%22callback_data%22%3A+%22cb_%5Cu041c%5Cu041e%5Cu041d%5Cu0418%5Cu041a%5Cu0410%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0420%5Cu0415%5Cu0419%5Cu0427%5Cu0415%5Cu041b%22%2C+%22callback_data%22%3A+%22cb_%5Cu0420%5Cu0415%5Cu0419%5Cu0427%5Cu0415%5Cu041b%22%7D%2C+%7B%22text%22%3A+%22%5Cu0420%5Cu041e%5Cu0421%5Cu0421%22%2C+%22callback_data%22%3A+%22cb_%5Cu0420%5Cu041e%5Cu0421%5Cu0421%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0424%5Cu0418%5Cu0411%5Cu0418%22%2C+%22callback_data%22%3A+%22cb_%5Cu0424%5Cu0418%5Cu0411%5Cu0418%22%7D%2C+%7B%22text%22%3A+%22%5Cu0427%5Cu0415%5Cu041d%5Cu0414%5Cu041b%5Cu0415%5Cu0420%22%2C+%22callback_data%22%3A+%22cb_%5Cu0427%5Cu0415%5Cu041d%5Cu0414%5Cu041b%5Cu0415%5Cu0420%22%7D%5D%5D%7D HTTP/1.1" 200 1187
+bot.db 07/15/2021 05:36:23 PM DEBUG Updating 415713765 state with ['', 259, 'Выберите героя, по образу которого будет говорить бот', 'ChooseCharacter']
+urllib3.connectionpool 07/15/2021 05:36:25 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714207&timeout=20 HTTP/1.1" 200 1483
+urllib3.connectionpool 07/15/2021 05:36:25 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:36:25 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1785477027600725616&text=%D0%91%D0%BE%D1%82+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%BA%D0%B0%D0%BA%3A+%D0%A0%D0%9E%D0%A1%D0%A1 HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:36:25 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=415713765&message_id=259 HTTP/1.1" 200 579
+urllib3.connectionpool 07/15/2021 05:36:25 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%91%D0%BE%D1%82+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%BA%D0%B0%D0%BA%3A+%D0%A0%D0%9E%D0%A1%D0%A1&reply_to_message_id=259 HTTP/1.1" 200 999
+bot.db 07/15/2021 05:36:25 PM DEBUG Updating 415713765 state with ['РОСС', 260, 'Бот будет говорить как: РОСС', 'SetCharacter']
+bot 07/15/2021 05:36:25 PM INFO Replied to 415713765 with:Бот будет говорить как: РОСС
+urllib3.connectionpool 07/15/2021 05:36:28 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714208&timeout=20 HTTP/1.1" 200 395
+bot 07/15/2021 05:36:28 PM INFO Got msg from 415713765:Привет
+bot.db 07/15/2021 05:36:28 PM DEBUG Getting 415713765 row from db
+urllib3.connectionpool 07/15/2021 05:36:29 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2C+%D1%8F+%D0%A0%D0%9E%D0%A1%D0%A1.+%D0%94%D0%B0%D0%B2%D0%B0%D0%B9+%D0%BE%D0%B1%D1%89%D0%B0%D1%82%D1%8C%D1%81%D1%8F%3F HTTP/1.1" 200 429
+bot.db 07/15/2021 05:36:29 PM DEBUG Updating 415713765 state with ['РОСС', 262, 'Привет, я РОСС. Давай общаться?', 'Talking']
+urllib3.connectionpool 07/15/2021 05:36:31 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714209&timeout=20 HTTP/1.1" 200 389
+bot 07/15/2021 05:36:31 PM INFO Got msg from 415713765:Давай
+bot.db 07/15/2021 05:36:31 PM DEBUG Getting 415713765 row from db
+urllib3.connectionpool 07/15/2021 05:36:34 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%A4%D0%98%D0%91%D0%98%3A%3F%21%0A%D0%A0%D0%9E%D0%A1%D0%A1%D0%AD%D0%99%2C+%D0%9C%D0%9E%D0%AF+%D0%A8%D0%90%D0%A8%D0%9C%D0%AB%21+%D0%9E+%D0%BD%D0%B5%D1%82-%D0%BD%D0%B5%D1%82+-+%D1%8D%D0%B9.+%D0%AF+%D0%BD%D0%B5+%D1%85%D0%BE%D1%87%D1%83+%D0%B1%D1%8B%D1%82%D1%8C+%D1%81%D0%BB%D0%B8%D1%88%D0%BA%D0%BE%D0%BC+%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B8%D0%BC+%D0%B4%D0%BB%D1%8F+%D1%82%D0%B5%D0%B1%D1%8F. HTTP/1.1" 200 657
+bot.db 07/15/2021 05:36:34 PM DEBUG Updating 415713765 state with ['РОСС', 264, 'ФИБИ:?!\nРОССЭЙ, МОЯ ШАШМЫ! О нет-нет - эй. Я не хочу быть слишком большим для тебя.', 'Talking']
+bot 07/15/2021 05:36:34 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:36:34 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:36:34 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 555
+bot.db 07/15/2021 05:36:34 PM DEBUG Updating 415713765 state with ['РОСС', 265, 'Оцените качество фразы', 'Talking']
+urllib3.connectionpool 07/15/2021 05:36:51 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714210&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:37:11 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714210&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:37:31 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714210&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:37:51 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714210&timeout=20 HTTP/1.1" 200 23
+bot.db 07/15/2021 05:38:13 PM INFO Read db from bot/data/db.csv
+bot.db 07/15/2021 05:39:48 PM INFO Read db from bot/data/db.csv
+bot 07/15/2021 05:39:52 PM INFO start of session
+urllib3.connectionpool 07/15/2021 05:39:53 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:39:53 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 395
+bot 07/15/2021 05:39:53 PM INFO Got msg from 415713765:Привет
+bot.db 07/15/2021 05:39:53 PM DEBUG Getting 415713765 row from db
+bot.db 07/15/2021 05:40:05 PM INFO Read db from bot/data/db.csv
+bot 07/15/2021 05:40:10 PM INFO start of session
+urllib3.connectionpool 07/15/2021 05:40:10 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:40:11 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 423
+bot 07/15/2021 05:40:11 PM INFO Got msg from 415713765:/start
+bot.db 07/15/2021 05:40:11 PM DEBUG Getting 415713765 row from db
+bot 07/15/2021 05:40:11 PM DEBUG Generating keyboard markup from ['ДЖОУИ', 'МОНИКА', 'РЕЙЧЕЛ', 'РОСС', 'ФИБИ', 'ЧЕНДЛЕР']
+bot 07/15/2021 05:40:11 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:40:11 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:40:11 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%92%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5+%D0%B3%D0%B5%D1%80%D0%BE%D1%8F%2C+%D0%BF%D0%BE+%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D1%83+%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%BE%D0%B3%D0%BE+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%B1%D0%BE%D1%82&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0414%5Cu0416%5Cu041e%5Cu0423%5Cu0418%22%2C+%22callback_data%22%3A+%22cb_%5Cu0414%5Cu0416%5Cu041e%5Cu0423%5Cu0418%22%7D%2C+%7B%22text%22%3A+%22%5Cu041c%5Cu041e%5Cu041d%5Cu0418%5Cu041a%5Cu0410%22%2C+%22callback_data%22%3A+%22cb_%5Cu041c%5Cu041e%5Cu041d%5Cu0418%5Cu041a%5Cu0410%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0420%5Cu0415%5Cu0419%5Cu0427%5Cu0415%5Cu041b%22%2C+%22callback_data%22%3A+%22cb_%5Cu0420%5Cu0415%5Cu0419%5Cu0427%5Cu0415%5Cu041b%22%7D%2C+%7B%22text%22%3A+%22%5Cu0420%5Cu041e%5Cu0421%5Cu0421%22%2C+%22callback_data%22%3A+%22cb_%5Cu0420%5Cu041e%5Cu0421%5Cu0421%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0424%5Cu0418%5Cu0411%5Cu0418%22%2C+%22callback_data%22%3A+%22cb_%5Cu0424%5Cu0418%5Cu0411%5Cu0418%22%7D%2C+%7B%22text%22%3A+%22%5Cu0427%5Cu0415%5Cu041d%5Cu0414%5Cu041b%5Cu0415%5Cu0420%22%2C+%22callback_data%22%3A+%22cb_%5Cu0427%5Cu0415%5Cu041d%5Cu0414%5Cu041b%5Cu0415%5Cu0420%22%7D%5D%5D%7D HTTP/1.1" 200 1187
+bot.db 07/15/2021 05:40:11 PM DEBUG Updating 415713765 state with ['', 268, 'Выберите героя, по образу которого будет говорить бот', 'ChooseCharacter']
+urllib3.connectionpool 07/15/2021 05:40:13 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714212&timeout=20 HTTP/1.1" 200 1483
+urllib3.connectionpool 07/15/2021 05:40:13 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1785477028365620005&text=%D0%91%D0%BE%D1%82+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%BA%D0%B0%D0%BA%3A+%D0%A0%D0%9E%D0%A1%D0%A1 HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:40:13 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=415713765&message_id=268 HTTP/1.1" 200 579
+urllib3.connectionpool 07/15/2021 05:40:13 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%91%D0%BE%D1%82+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%BA%D0%B0%D0%BA%3A+%D0%A0%D0%9E%D0%A1%D0%A1&reply_to_message_id=268 HTTP/1.1" 200 999
+bot.db 07/15/2021 05:40:13 PM DEBUG Updating 415713765 state with ['РОСС', 269, 'Бот будет говорить как: РОСС', 'SetCharacter']
+bot 07/15/2021 05:40:13 PM INFO Replied to 415713765 with:Бот будет говорить как: РОСС
+urllib3.connectionpool 07/15/2021 05:40:17 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714213&timeout=20 HTTP/1.1" 200 389
+bot 07/15/2021 05:40:17 PM INFO Got msg from 415713765:Давай
+bot.db 07/15/2021 05:40:17 PM DEBUG Getting 415713765 row from db
+urllib3.connectionpool 07/15/2021 05:40:17 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:40:17 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2C+%D1%8F+%D0%A0%D0%9E%D0%A1%D0%A1.+%D0%94%D0%B0%D0%B2%D0%B0%D0%B9+%D0%BE%D0%B1%D1%89%D0%B0%D1%82%D1%8C%D1%81%D1%8F%3F HTTP/1.1" 200 429
+bot.db 07/15/2021 05:40:17 PM DEBUG Updating 415713765 state with ['РОСС', 271, 'Привет, я РОСС. Давай общаться?', 'Talking']
+urllib3.connectionpool 07/15/2021 05:40:20 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714214&timeout=20 HTTP/1.1" 200 389
+bot 07/15/2021 05:40:20 PM INFO Got msg from 415713765:Давай
+bot.db 07/15/2021 05:40:20 PM DEBUG Getting 415713765 row from db
+bot.model 07/15/2021 05:40:23 PM ERROR Tag </s> not found in generated for prompt HEДРУГ: Давай
+РОСС:
+urllib3.connectionpool 07/15/2021 05:40:23 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=HE%D0%94%D0%A0%D0%A3%D0%93%3A+%D0%94%D0%B0%D0%B2%D0%B0%D0%B9%0A%D0%A0%D0%9E%D0%A1%D0%A1%3A+%D0%AF+%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D1%8E%2C+%D1%87%D1%82%D0%BE+%D0%B5%D1%81%D0%BB%D0%B8+%D0%B2%D1%8B+%D0%BD%D0%B5+%D0%BC%D0%BE%D0%B6%D0%B5%D1%82%D0%B5+%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D1%82%D1%8C+%D0%BA%D1%80%D0%B5%D0%B4%D0%B8%D1%82+%D0%B2+%D0%B1%D0%B0%D0%BD%D0%BA%D0%B5+%D0%BF%D0%BE%D0%B4+%D0%BE%D1%87%D0%B5%D0%BD%D1%8C+%D0%BD%D0%B8%D0%B7%D0%BA%D1%83%D1%8E+%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D1%83+%D0%B8+%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D1%82%D0%B5+%D0%BA%D0%BE%D0%B3%D0%BE-%D1%82%D0%BE+%D0%BE%D0%B4%D0%BE%D0%BB%D0%B6%D0%B8%D1%82%D1%8C+%D0%B2%D0%B0%D0%BC+%D0%BC%D0%B0%D1%88%D0%B8%D0%BD%D1%83+%D1%81+%D0%BF%D0%BE%D0%BB%D0%BD%D1%8B%D0%BC+%D0%BF%D1%80%D0%B8%D0%B2%D0%BE%D0%B4%D0%BE%D0%BC+%D0%B4%D0%BB%D1%8F+%D0%B1%D1%83%D0%BA%D1%81%D0%B8%D1%80%D0%BE%D0%B2%D0%BA%D0%B8+%D0%B3%D1%80%D1%83%D0%B7%D0%BE%D0%B2%D0%BE%D0%B3%D0%BE+%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B0.%3C%2F HTTP/1.1" 200 1285
+bot.db 07/15/2021 05:40:23 PM DEBUG Updating 415713765 state with ['РОСС', 273, 'HEДРУГ: Давай\nРОСС: Я просто говорю, что если вы не можете получить кредит в банке под очень низкую ставку и просите кого-то одолжить вам машину с полным приводом для буксировки грузового транспорта.</', 'Talking']
+bot 07/15/2021 05:40:23 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:40:23 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:40:23 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 555
+bot.db 07/15/2021 05:40:23 PM DEBUG Updating 415713765 state with ['РОСС', 274, 'Оцените качество фразы', 'Talking']
+urllib3.connectionpool 07/15/2021 05:40:34 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714215&timeout=20 HTTP/1.1" 200 839
+urllib3.connectionpool 07/15/2021 05:40:34 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1785477027557809672&text=%D0%92%D1%8B+%D0%BE%D1%86%D0%B5%D0%BD%D0%B8%D0%BB%D0%B8+%D0%BF%D1%80%D0%B5%D0%B4%D1%8B%D0%B4%D1%83%D1%89%D0%B5%D0%B5+%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%3A+%F0%9F%91%8E HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:40:34 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=415713765&message_id=274 HTTP/1.1" 200 423
+bot.db 07/15/2021 05:40:34 PM DEBUG Getting 415713765 row from db
+urllib3.connectionpool 07/15/2021 05:40:34 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%A1%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5+%D1%87%D1%82%D0%BE-%D0%BD%D0%B8%D0%B1%D1%83%D0%B4%D1%8C+%D0%B5%D1%89%D0%B5%3F%29&reply_to_message_id=274 HTTP/1.1" 200 819
+bot.db 07/15/2021 05:40:34 PM DEBUG Updating 415713765 state with ['РОСС', 275, 'Скажите что-нибудь еще?)', 'Talking']
+bot 07/15/2021 05:40:34 PM INFO Rated Оцените качество фразы with: 👎
+urllib3.connectionpool 07/15/2021 05:40:42 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714216&timeout=20 HTTP/1.1" 200 448
+bot 07/15/2021 05:40:42 PM INFO Got msg from 415713765:Приятель, о чем ты?
+bot.db 07/15/2021 05:40:42 PM DEBUG Getting 415713765 row from db
+urllib3.connectionpool 07/15/2021 05:40:45 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=HE%D0%94%D0%A0%D0%A3%D0%93%3A+%D0%9F%D1%80%D0%B8%D1%8F%D1%82%D0%B5%D0%BB%D1%8C%2C+%D0%BE+%D1%87%D0%B5%D0%BC+%D1%82%D1%8B%3F%0A%D0%A0%D0%9E%D0%A1%D0%A1%3A+%D0%9D%D1%83+%D1%8F%E2%80%A6+%D0%AF+%D0%BD%D0%B5+%D0%B7%D0%BD%D0%B0%D1%8E.+%D0%9C%D0%BD%D0%B5+%D0%BA%D0%B0%D0%B6%D0%B5%D1%82%D1%81%D1%8F+%D1%87%D1%82%D0%BE+%D1%8D%D1%82%D0%BE+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%BD%D0%B5%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE+%D0%BD%D0%B5%D0%BB%D0%BE%D0%B2%D0%BA%D0%BE. HTTP/1.1" 200 712
+bot.db 07/15/2021 05:40:45 PM DEBUG Updating 415713765 state with ['РОСС', 277, 'HEДРУГ: Приятель, о чем ты?\nРОСС: Ну я… Я не знаю. Мне кажется что это будет немного неловко.', 'Talking']
+bot 07/15/2021 05:40:45 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:40:45 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:40:45 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 555
+bot.db 07/15/2021 05:40:45 PM DEBUG Updating 415713765 state with ['РОСС', 278, 'Оцените качество фразы', 'Talking']
+urllib3.connectionpool 07/15/2021 05:40:52 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714217&timeout=20 HTTP/1.1" 200 839
+urllib3.connectionpool 07/15/2021 05:40:52 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1785477029147381547&text=%D0%92%D1%8B+%D0%BE%D1%86%D0%B5%D0%BD%D0%B8%D0%BB%D0%B8+%D0%BF%D1%80%D0%B5%D0%B4%D1%8B%D0%B4%D1%83%D1%89%D0%B5%D0%B5+%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%3A+%F0%9F%91%8D HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:40:52 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=415713765&message_id=278 HTTP/1.1" 200 423
+bot.db 07/15/2021 05:40:52 PM DEBUG Getting 415713765 row from db
+urllib3.connectionpool 07/15/2021 05:40:52 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=415713765&text=%D0%A1%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5+%D1%87%D1%82%D0%BE-%D0%BD%D0%B8%D0%B1%D1%83%D0%B4%D1%8C+%D0%B5%D1%89%D0%B5%3F%29&reply_to_message_id=278 HTTP/1.1" 200 819
+bot.db 07/15/2021 05:40:52 PM DEBUG Updating 415713765 state with ['РОСС', 279, 'Скажите что-нибудь еще?)', 'Talking']
+bot 07/15/2021 05:40:52 PM INFO Rated Оцените качество фразы with: 👍
+urllib3.connectionpool 07/15/2021 05:41:12 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714218&timeout=20 HTTP/1.1" 200 23
+bot.db 07/15/2021 05:41:49 PM INFO Read db from bot/data/db.csv
+bot 07/15/2021 05:41:53 PM INFO start of session
+urllib3.connectionpool 07/15/2021 05:41:53 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:41:58 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 357
+bot 07/15/2021 05:41:58 PM INFO Got msg from 334292330:/start
+bot.db 07/15/2021 05:41:58 PM DEBUG Getting 334292330 row from db
+bot 07/15/2021 05:41:58 PM DEBUG Generating keyboard markup from ['ДЖОУИ', 'МОНИКА', 'РЕЙЧЕЛ', 'РОСС', 'ФИБИ', 'ЧЕНДЛЕР']
+bot 07/15/2021 05:41:58 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:41:58 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:41:59 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%92%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5+%D0%B3%D0%B5%D1%80%D0%BE%D1%8F%2C+%D0%BF%D0%BE+%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D1%83+%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%BE%D0%B3%D0%BE+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%B1%D0%BE%D1%82&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0414%5Cu0416%5Cu041e%5Cu0423%5Cu0418%22%2C+%22callback_data%22%3A+%22cb_%5Cu0414%5Cu0416%5Cu041e%5Cu0423%5Cu0418%22%7D%2C+%7B%22text%22%3A+%22%5Cu041c%5Cu041e%5Cu041d%5Cu0418%5Cu041a%5Cu0410%22%2C+%22callback_data%22%3A+%22cb_%5Cu041c%5Cu041e%5Cu041d%5Cu0418%5Cu041a%5Cu0410%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0420%5Cu0415%5Cu0419%5Cu0427%5Cu0415%5Cu041b%22%2C+%22callback_data%22%3A+%22cb_%5Cu0420%5Cu0415%5Cu0419%5Cu0427%5Cu0415%5Cu041b%22%7D%2C+%7B%22text%22%3A+%22%5Cu0420%5Cu041e%5Cu0421%5Cu0421%22%2C+%22callback_data%22%3A+%22cb_%5Cu0420%5Cu041e%5Cu0421%5Cu0421%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0424%5Cu0418%5Cu0411%5Cu0418%22%2C+%22callback_data%22%3A+%22cb_%5Cu0424%5Cu0418%5Cu0411%5Cu0418%22%7D%2C+%7B%22text%22%3A+%22%5Cu0427%5Cu0415%5Cu041d%5Cu0414%5Cu041b%5Cu0415%5Cu0420%22%2C+%22callback_data%22%3A+%22cb_%5Cu0427%5Cu0415%5Cu041d%5Cu0414%5Cu041b%5Cu0415%5Cu0420%22%7D%5D%5D%7D HTTP/1.1" 200 1154
+bot.db 07/15/2021 05:41:59 PM DEBUG Updating 334292330 state with ['', 281, 'Выберите героя, по образу которого будет говорить бот', 'ChooseCharacter']
+urllib3.connectionpool 07/15/2021 05:42:03 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714219&timeout=20 HTTP/1.1" 200 1416
+urllib3.connectionpool 07/15/2021 05:42:03 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:42:03 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1435774628466146446&text=%D0%91%D0%BE%D1%82+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%BA%D0%B0%D0%BA%3A+%D0%A0%D0%9E%D0%A1%D0%A1 HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:42:03 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=334292330&message_id=281 HTTP/1.1" 200 546
+urllib3.connectionpool 07/15/2021 05:42:04 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%91%D0%BE%D1%82+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%BA%D0%B0%D0%BA%3A+%D0%A0%D0%9E%D0%A1%D0%A1&reply_to_message_id=281 HTTP/1.1" 200 933
+bot.db 07/15/2021 05:42:04 PM DEBUG Updating 334292330 state with ['РОСС', 282, 'Бот будет говорить как: РОСС', 'SetCharacter']
+bot 07/15/2021 05:42:04 PM INFO Replied to 334292330 with:Бот будет говорить как: РОСС
+urllib3.connectionpool 07/15/2021 05:42:04 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714220&timeout=20 HTTP/1.1" 200 395
+bot 07/15/2021 05:42:04 PM INFO Got msg from 415713765:Привет
+bot.db 07/15/2021 05:42:04 PM DEBUG Getting 415713765 row from db
+bot.db 07/15/2021 05:42:08 PM INFO Read db from bot/data/db.csv
+bot 07/15/2021 05:42:10 PM INFO start of session
+urllib3.connectionpool 07/15/2021 05:42:10 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:42:11 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 200 330
+bot 07/15/2021 05:42:11 PM INFO Got msg from 334292330:Привет!
+bot.db 07/15/2021 05:42:11 PM DEBUG Getting 334292330 row from db
+bot 07/15/2021 05:42:11 PM DEBUG Generating keyboard markup from ['ДЖОУИ', 'МОНИКА', 'РЕЙЧЕЛ', 'РОСС', 'ФИБИ', 'ЧЕНДЛЕР']
+bot 07/15/2021 05:42:11 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:42:11 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:42:11 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%92%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5+%D0%B3%D0%B5%D1%80%D0%BE%D1%8F%2C+%D0%BF%D0%BE+%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D1%83+%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%BE%D0%B3%D0%BE+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%B1%D0%BE%D1%82&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0414%5Cu0416%5Cu041e%5Cu0423%5Cu0418%22%2C+%22callback_data%22%3A+%22cb_%5Cu0414%5Cu0416%5Cu041e%5Cu0423%5Cu0418%22%7D%2C+%7B%22text%22%3A+%22%5Cu041c%5Cu041e%5Cu041d%5Cu0418%5Cu041a%5Cu0410%22%2C+%22callback_data%22%3A+%22cb_%5Cu041c%5Cu041e%5Cu041d%5Cu0418%5Cu041a%5Cu0410%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0420%5Cu0415%5Cu0419%5Cu0427%5Cu0415%5Cu041b%22%2C+%22callback_data%22%3A+%22cb_%5Cu0420%5Cu0415%5Cu0419%5Cu0427%5Cu0415%5Cu041b%22%7D%2C+%7B%22text%22%3A+%22%5Cu0420%5Cu041e%5Cu0421%5Cu0421%22%2C+%22callback_data%22%3A+%22cb_%5Cu0420%5Cu041e%5Cu0421%5Cu0421%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0424%5Cu0418%5Cu0411%5Cu0418%22%2C+%22callback_data%22%3A+%22cb_%5Cu0424%5Cu0418%5Cu0411%5Cu0418%22%7D%2C+%7B%22text%22%3A+%22%5Cu0427%5Cu0415%5Cu041d%5Cu0414%5Cu041b%5Cu0415%5Cu0420%22%2C+%22callback_data%22%3A+%22cb_%5Cu0427%5Cu0415%5Cu041d%5Cu0414%5Cu041b%5Cu0415%5Cu0420%22%7D%5D%5D%7D HTTP/1.1" 200 1154
+bot.db 07/15/2021 05:42:11 PM DEBUG Updating 334292330 state with ['', 285, 'Выберите героя, по образу которого будет говорить бот', 'ChooseCharacter']
+urllib3.connectionpool 07/15/2021 05:42:21 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714222&timeout=20 HTTP/1.1" 200 354
+bot 07/15/2021 05:42:21 PM INFO Got msg from 334292330:Добрый день
+bot.db 07/15/2021 05:42:21 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:42:21 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%92%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5+%D0%B3%D0%B5%D1%80%D0%BE%D1%8F+%D0%B2+%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D0%B5+%D0%B2%D1%8B%D1%88%D0%B5 HTTP/1.1" 200 393
+bot.db 07/15/2021 05:42:21 PM DEBUG Updating 334292330 state with ['', 287, 'Выберите героя в опросе выше', 'ChooseCharacter']
+urllib3.connectionpool 07/15/2021 05:42:24 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714223&timeout=20 HTTP/1.1" 200 1422
+urllib3.connectionpool 07/15/2021 05:42:24 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1435774624884127790&text=%D0%91%D0%BE%D1%82+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%BA%D0%B0%D0%BA%3A+%D0%94%D0%96%D0%9E%D0%A3%D0%98 HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:42:24 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=334292330&message_id=285 HTTP/1.1" 200 546
+urllib3.connectionpool 07/15/2021 05:42:24 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%91%D0%BE%D1%82+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%BA%D0%B0%D0%BA%3A+%D0%94%D0%96%D0%9E%D0%A3%D0%98&reply_to_message_id=285 HTTP/1.1" 200 939
+bot.db 07/15/2021 05:42:24 PM DEBUG Updating 334292330 state with ['ДЖОУИ', 288, 'Бот будет говорить как: ДЖОУИ', 'SetCharacter']
+bot 07/15/2021 05:42:24 PM INFO Replied to 334292330 with:Бот будет говорить как: ДЖОУИ
+urllib3.connectionpool 07/15/2021 05:42:32 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714224&timeout=20 HTTP/1.1" 200 329
+bot 07/15/2021 05:42:32 PM INFO Got msg from 334292330:Привет
+bot.db 07/15/2021 05:42:32 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:42:32 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2C+%D1%8F+%D0%94%D0%96%D0%9E%D0%A3%D0%98.+%D0%94%D0%B0%D0%B2%D0%B0%D0%B9+%D0%BE%D0%B1%D1%89%D0%B0%D1%82%D1%8C%D1%81%D1%8F%3F HTTP/1.1" 200 402
+bot.db 07/15/2021 05:42:32 PM DEBUG Updating 334292330 state with ['ДЖОУИ', 290, 'Привет, я ДЖОУИ. Давай общаться?', 'Talking']
+urllib3.connectionpool 07/15/2021 05:42:42 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714225&timeout=20 HTTP/1.1" 200 317
+bot 07/15/2021 05:42:42 PM INFO Got msg from 334292330:Росс
+bot.db 07/15/2021 05:42:42 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:42:43 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=Model+or+Tokenizer+not+working HTTP/1.1" 200 275
+bot.db 07/15/2021 05:42:43 PM DEBUG Updating 334292330 state with ['ДЖОУИ', 292, 'Model or Tokenizer not working', 'Talking']
+bot 07/15/2021 05:42:43 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:42:43 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:42:43 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 522
+bot.db 07/15/2021 05:42:43 PM DEBUG Updating 334292330 state with ['ДЖОУИ', 293, 'Оцените качество фразы', 'Talking']
+urllib3.connectionpool 07/15/2021 05:43:03 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714226&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:43:05 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714226&timeout=20 HTTP/1.1" 200 357
+bot 07/15/2021 05:43:05 PM INFO Got msg from 334292330:/start
+bot.db 07/15/2021 05:43:05 PM DEBUG Getting 334292330 row from db
+bot 07/15/2021 05:43:05 PM DEBUG Generating keyboard markup from ['ДЖОУИ', 'МОНИКА', 'РЕЙЧЕЛ', 'РОСС', 'ФИБИ', 'ЧЕНДЛЕР']
+bot 07/15/2021 05:43:05 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:43:05 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%92%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5+%D0%B3%D0%B5%D1%80%D0%BE%D1%8F%2C+%D0%BF%D0%BE+%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D1%83+%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%BE%D0%B3%D0%BE+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%B1%D0%BE%D1%82&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0414%5Cu0416%5Cu041e%5Cu0423%5Cu0418%22%2C+%22callback_data%22%3A+%22cb_%5Cu0414%5Cu0416%5Cu041e%5Cu0423%5Cu0418%22%7D%2C+%7B%22text%22%3A+%22%5Cu041c%5Cu041e%5Cu041d%5Cu0418%5Cu041a%5Cu0410%22%2C+%22callback_data%22%3A+%22cb_%5Cu041c%5Cu041e%5Cu041d%5Cu0418%5Cu041a%5Cu0410%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0420%5Cu0415%5Cu0419%5Cu0427%5Cu0415%5Cu041b%22%2C+%22callback_data%22%3A+%22cb_%5Cu0420%5Cu0415%5Cu0419%5Cu0427%5Cu0415%5Cu041b%22%7D%2C+%7B%22text%22%3A+%22%5Cu0420%5Cu041e%5Cu0421%5Cu0421%22%2C+%22callback_data%22%3A+%22cb_%5Cu0420%5Cu041e%5Cu0421%5Cu0421%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0424%5Cu0418%5Cu0411%5Cu0418%22%2C+%22callback_data%22%3A+%22cb_%5Cu0424%5Cu0418%5Cu0411%5Cu0418%22%7D%2C+%7B%22text%22%3A+%22%5Cu0427%5Cu0415%5Cu041d%5Cu0414%5Cu041b%5Cu0415%5Cu0420%22%2C+%22callback_data%22%3A+%22cb_%5Cu0427%5Cu0415%5Cu041d%5Cu0414%5Cu041b%5Cu0415%5Cu0420%22%7D%5D%5D%7D HTTP/1.1" 200 1154
+bot.db 07/15/2021 05:43:05 PM DEBUG Updating 334292330 state with ['', 295, 'Выберите героя, по образу которого будет говорить бот', 'ChooseCharacter']
+urllib3.connectionpool 07/15/2021 05:43:07 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714227&timeout=20 HTTP/1.1" 200 1416
+urllib3.connectionpool 07/15/2021 05:43:07 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1435774625568444908&text=%D0%91%D0%BE%D1%82+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%BA%D0%B0%D0%BA%3A+%D0%A0%D0%9E%D0%A1%D0%A1 HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:43:08 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=334292330&message_id=295 HTTP/1.1" 200 546
+urllib3.connectionpool 07/15/2021 05:43:08 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%91%D0%BE%D1%82+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%BA%D0%B0%D0%BA%3A+%D0%A0%D0%9E%D0%A1%D0%A1&reply_to_message_id=295 HTTP/1.1" 200 933
+bot.db 07/15/2021 05:43:08 PM DEBUG Updating 334292330 state with ['РОСС', 296, 'Бот будет говорить как: РОСС', 'SetCharacter']
+bot 07/15/2021 05:43:08 PM INFO Replied to 334292330 with:Бот будет говорить как: РОСС
+urllib3.connectionpool 07/15/2021 05:43:13 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714228&timeout=20 HTTP/1.1" 200 323
+bot 07/15/2021 05:43:13 PM INFO Got msg from 334292330:Давай
+bot.db 07/15/2021 05:43:13 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:43:13 PM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 07/15/2021 05:43:13 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2C+%D1%8F+%D0%A0%D0%9E%D0%A1%D0%A1.+%D0%94%D0%B0%D0%B2%D0%B0%D0%B9+%D0%BE%D0%B1%D1%89%D0%B0%D1%82%D1%8C%D1%81%D1%8F%3F HTTP/1.1" 200 396
+bot.db 07/15/2021 05:43:13 PM DEBUG Updating 334292330 state with ['РОСС', 298, 'Привет, я РОСС. Давай общаться?', 'Talking']
+urllib3.connectionpool 07/15/2021 05:43:20 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714229&timeout=20 HTTP/1.1" 200 375
+bot 07/15/2021 05:43:20 PM INFO Got msg from 334292330:Как ты, приятель?
+bot.db 07/15/2021 05:43:20 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:43:22 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=+%D0%AF+%D0%B2+%D0%BF%D0%BE%D1%80%D1%8F%D0%B4%D0%BA%D0%B5. HTTP/1.1" 200 302
+bot.db 07/15/2021 05:43:22 PM DEBUG Updating 334292330 state with ['РОСС', 300, ' Я в порядке.', 'Talking']
+bot.db 07/15/2021 05:43:22 PM DEBUG Flushing the db to bot/data/db.csv
+bot.db 07/15/2021 05:43:22 PM DEBUG Flush complete
+bot 07/15/2021 05:43:22 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:43:22 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:43:22 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 522
+bot.db 07/15/2021 05:43:22 PM DEBUG Updating 334292330 state with ['РОСС', 301, 'Оцените качество фразы', 'Talking']
+urllib3.connectionpool 07/15/2021 05:43:37 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714230&timeout=20 HTTP/1.1" 200 772
+urllib3.connectionpool 07/15/2021 05:43:37 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1435774625032160867&text=%D0%92%D1%8B+%D0%BE%D1%86%D0%B5%D0%BD%D0%B8%D0%BB%D0%B8+%D0%BF%D1%80%D0%B5%D0%B4%D1%8B%D0%B4%D1%83%D1%89%D0%B5%D0%B5+%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%3A+%F0%9F%91%8D HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:43:37 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=334292330&message_id=301 HTTP/1.1" 200 390
+bot.db 07/15/2021 05:43:37 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:43:38 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%A1%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5+%D1%87%D1%82%D0%BE-%D0%BD%D0%B8%D0%B1%D1%83%D0%B4%D1%8C+%D0%B5%D1%89%D0%B5%3F%29&reply_to_message_id=301 HTTP/1.1" 200 753
+bot.db 07/15/2021 05:43:38 PM DEBUG Updating 334292330 state with ['РОСС', 302, 'Скажите что-нибудь еще?)', 'Talking']
+bot 07/15/2021 05:43:38 PM INFO Rated Оцените качество фразы with: 👍
+urllib3.connectionpool 07/15/2021 05:43:57 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714231&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:43:58 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714231&timeout=20 HTTP/1.1" 200 446
+bot 07/15/2021 05:43:58 PM INFO Got msg from 334292330:Вуптидискуп-скупти-вупти-дуп
+bot.db 07/15/2021 05:43:58 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:43:59 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=+%D0%9B%D0%B0%D0%B4%D0%BD%D0%BE%2C+%D0%BB%D0%B0%D0%B4%D0%BD%D0%BE.+%D0%92%D1%8B+%D0%BD%D0%B5+%D0%BF%D0%BE%D0%B2%D0%B5%D1%80%D0%B8%D1%82%D0%B5. HTTP/1.1" 200 384
+bot.db 07/15/2021 05:43:59 PM DEBUG Updating 334292330 state with ['РОСС', 304, ' Ладно, ладно. Вы не поверите.', 'Talking']
+bot 07/15/2021 05:43:59 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:43:59 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:43:59 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 522
+bot.db 07/15/2021 05:43:59 PM DEBUG Updating 334292330 state with ['РОСС', 305, 'Оцените качество фразы', 'Talking']
+urllib3.connectionpool 07/15/2021 05:44:12 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714232&timeout=20 HTTP/1.1" 200 772
+urllib3.connectionpool 07/15/2021 05:44:12 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1435774627619384633&text=%D0%92%D1%8B+%D0%BE%D1%86%D0%B5%D0%BD%D0%B8%D0%BB%D0%B8+%D0%BF%D1%80%D0%B5%D0%B4%D1%8B%D0%B4%D1%83%D1%89%D0%B5%D0%B5+%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%3A+%F0%9F%91%8D HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:44:13 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=334292330&message_id=305 HTTP/1.1" 200 390
+bot.db 07/15/2021 05:44:13 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:44:13 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%A1%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5+%D1%87%D1%82%D0%BE-%D0%BD%D0%B8%D0%B1%D1%83%D0%B4%D1%8C+%D0%B5%D1%89%D0%B5%3F%29&reply_to_message_id=305 HTTP/1.1" 200 753
+bot.db 07/15/2021 05:44:13 PM DEBUG Updating 334292330 state with ['РОСС', 306, 'Скажите что-нибудь еще?)', 'Talking']
+bot 07/15/2021 05:44:13 PM INFO Rated Оцените качество фразы with: 👍
+urllib3.connectionpool 07/15/2021 05:44:24 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714233&timeout=20 HTTP/1.1" 200 455
+bot 07/15/2021 05:44:24 PM INFO Got msg from 334292330:Что лучше, танцы или гимнастика?
+bot.db 07/15/2021 05:44:24 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:44:26 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=+%D0%A2%D0%B0%D0%BD%D1%86%D1%8B%21+%D0%AF+%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE+%D0%BD%D0%B5+%D0%BC%D0%BE%D0%B3%D1%83+%D0%BF%D0%BE%D0%B2%D0%B5%D1%80%D0%B8%D1%82%D1%8C+%D0%B2+%D1%8D%D1%82%D0%BE.+%D0%AD%D1%82%D0%BE+%D0%B2%D1%81%D0%B5+%D1%82%D0%B2%D0%BE%D0%B5. HTTP/1.1" 200 498
+bot.db 07/15/2021 05:44:26 PM DEBUG Updating 334292330 state with ['РОСС', 308, ' Танцы! Я просто не могу поверить в это. Это все твое.', 'Talking']
+bot 07/15/2021 05:44:26 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:44:26 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:44:26 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 522
+bot.db 07/15/2021 05:44:26 PM DEBUG Updating 334292330 state with ['РОСС', 309, 'Оцените качество фразы', 'Talking']
+urllib3.connectionpool 07/15/2021 05:44:38 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714234&timeout=20 HTTP/1.1" 200 772
+urllib3.connectionpool 07/15/2021 05:44:38 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1435774627640473661&text=%D0%92%D1%8B+%D0%BE%D1%86%D0%B5%D0%BD%D0%B8%D0%BB%D0%B8+%D0%BF%D1%80%D0%B5%D0%B4%D1%8B%D0%B4%D1%83%D1%89%D0%B5%D0%B5+%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%3A+%F0%9F%91%8D HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:44:38 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=334292330&message_id=309 HTTP/1.1" 200 390
+bot.db 07/15/2021 05:44:38 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:44:38 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%A1%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5+%D1%87%D1%82%D0%BE-%D0%BD%D0%B8%D0%B1%D1%83%D0%B4%D1%8C+%D0%B5%D1%89%D0%B5%3F%29&reply_to_message_id=309 HTTP/1.1" 200 753
+bot.db 07/15/2021 05:44:38 PM DEBUG Updating 334292330 state with ['РОСС', 310, 'Скажите что-нибудь еще?)', 'Talking']
+bot 07/15/2021 05:44:38 PM INFO Rated Оцените качество фразы with: 👍
+urllib3.connectionpool 07/15/2021 05:44:48 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714235&timeout=20 HTTP/1.1" 200 356
+bot 07/15/2021 05:44:48 PM INFO Got msg from 334292330:Пойдем в бар?
+bot.db 07/15/2021 05:44:48 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:44:51 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=+%D0%9D%D0%B5%D1%82%2C+%D1%8F+%D1%85%D0%BE%D1%87%D1%83+%D0%B2%D1%8B%D0%BF%D0%B8%D1%82%D1%8C+%D0%BF%D0%B0%D1%80%D1%83+%D0%BA%D1%80%D1%83%D0%B6%D0%B5%D0%BA+%D0%BF%D0%B8%D0%B2%D0%B0. HTTP/1.1" 200 421
+bot.db 07/15/2021 05:44:51 PM DEBUG Updating 334292330 state with ['РОСС', 312, ' Нет, я хочу выпить пару кружек пива.', 'Talking']
+bot 07/15/2021 05:44:51 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:44:51 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:44:51 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 522
+bot.db 07/15/2021 05:44:51 PM DEBUG Updating 334292330 state with ['РОСС', 313, 'Оцените качество фразы', 'Talking']
+bot.db 07/15/2021 05:44:51 PM DEBUG Flushing the db to bot/data/db.csv
+bot.db 07/15/2021 05:44:51 PM DEBUG Flush complete
+urllib3.connectionpool 07/15/2021 05:45:04 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714236&timeout=20 HTTP/1.1" 200 772
+urllib3.connectionpool 07/15/2021 05:45:04 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1435774627909308797&text=%D0%92%D1%8B+%D0%BE%D1%86%D0%B5%D0%BD%D0%B8%D0%BB%D0%B8+%D0%BF%D1%80%D0%B5%D0%B4%D1%8B%D0%B4%D1%83%D1%89%D0%B5%D0%B5+%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%3A+%F0%9F%91%8D HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:45:04 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=334292330&message_id=313 HTTP/1.1" 200 390
+bot.db 07/15/2021 05:45:04 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:45:04 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%A1%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5+%D1%87%D1%82%D0%BE-%D0%BD%D0%B8%D0%B1%D1%83%D0%B4%D1%8C+%D0%B5%D1%89%D0%B5%3F%29&reply_to_message_id=313 HTTP/1.1" 200 753
+bot.db 07/15/2021 05:45:04 PM DEBUG Updating 334292330 state with ['РОСС', 314, 'Скажите что-нибудь еще?)', 'Talking']
+bot 07/15/2021 05:45:04 PM INFO Rated Оцените качество фразы with: 👍
+urllib3.connectionpool 07/15/2021 05:45:18 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714237&timeout=20 HTTP/1.1" 200 349
+bot 07/15/2021 05:45:18 PM INFO Got msg from 334292330:Как какать?
+bot.db 07/15/2021 05:45:18 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:45:21 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=+%D0%9D%D1%83%2C+%D1%8F+%D0%BD%D0%B5+%D0%B7%D0%BD%D0%B0%D1%8E. HTTP/1.1" 200 304
+bot.db 07/15/2021 05:45:21 PM DEBUG Updating 334292330 state with ['РОСС', 316, ' Ну, я не знаю.', 'Talking']
+bot 07/15/2021 05:45:21 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:45:21 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:45:21 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 522
+bot.db 07/15/2021 05:45:21 PM DEBUG Updating 334292330 state with ['РОСС', 317, 'Оцените качество фразы', 'Talking']
+urllib3.connectionpool 07/15/2021 05:45:33 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714238&timeout=20 HTTP/1.1" 200 772
+urllib3.connectionpool 07/15/2021 05:45:33 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1435774628502256587&text=%D0%92%D1%8B+%D0%BE%D1%86%D0%B5%D0%BD%D0%B8%D0%BB%D0%B8+%D0%BF%D1%80%D0%B5%D0%B4%D1%8B%D0%B4%D1%83%D1%89%D0%B5%D0%B5+%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%3A+%F0%9F%91%8D HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:45:33 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=334292330&message_id=317 HTTP/1.1" 200 390
+bot.db 07/15/2021 05:45:33 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:45:33 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%A1%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5+%D1%87%D1%82%D0%BE-%D0%BD%D0%B8%D0%B1%D1%83%D0%B4%D1%8C+%D0%B5%D1%89%D0%B5%3F%29&reply_to_message_id=317 HTTP/1.1" 200 753
+bot.db 07/15/2021 05:45:33 PM DEBUG Updating 334292330 state with ['РОСС', 318, 'Скажите что-нибудь еще?)', 'Talking']
+bot 07/15/2021 05:45:33 PM INFO Rated Оцените качество фразы with: 👍
+urllib3.connectionpool 07/15/2021 05:45:53 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714239&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:46:01 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714239&timeout=20 HTTP/1.1" 200 456
+bot 07/15/2021 05:46:01 PM INFO Got msg from 334292330:Ничего, если я пойду гулять одна?
+bot.db 07/15/2021 05:46:01 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:46:04 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=+%D0%A5%D0%BE%D1%80%D0%BE%D1%88%D0%BE-%D1%85%D0%BE%D1%80%D0%BE%D1%88%D0%BE.+%D0%A2%D0%B0%D0%BA+%D1%82%D1%8B+%D0%BF%D0%BE%D0%B9%D0%B4%D0%B5%D1%88%D1%8C+%D1%81%D0%BE+%D0%BC%D0%BD%D0%BE%D0%B9+%D1%81%D0%B5%D0%B3%D0%BE%D0%B4%D0%BD%D1%8F+%D0%B2%D0%B5%D1%87%D0%B5%D1%80%D0%BE%D0%BC+%D0%B8%D0%BB%D0%B8+%D0%BD%D0%B5%D1%82%3F%21 HTTP/1.1" 200 558
+bot.db 07/15/2021 05:46:04 PM DEBUG Updating 334292330 state with ['РОСС', 320, ' Хорошо-хорошо. Так ты пойдешь со мной сегодня вечером или нет?!', 'Talking']
+bot 07/15/2021 05:46:04 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:46:04 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:46:04 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 522
+bot.db 07/15/2021 05:46:04 PM DEBUG Updating 334292330 state with ['РОСС', 321, 'Оцените качество фразы', 'Talking']
+urllib3.connectionpool 07/15/2021 05:46:17 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714240&timeout=20 HTTP/1.1" 200 772
+urllib3.connectionpool 07/15/2021 05:46:17 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1435774627903858116&text=%D0%92%D1%8B+%D0%BE%D1%86%D0%B5%D0%BD%D0%B8%D0%BB%D0%B8+%D0%BF%D1%80%D0%B5%D0%B4%D1%8B%D0%B4%D1%83%D1%89%D0%B5%D0%B5+%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%3A+%F0%9F%91%8D HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:46:17 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=334292330&message_id=321 HTTP/1.1" 200 390
+bot.db 07/15/2021 05:46:17 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:46:17 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%A1%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5+%D1%87%D1%82%D0%BE-%D0%BD%D0%B8%D0%B1%D1%83%D0%B4%D1%8C+%D0%B5%D1%89%D0%B5%3F%29&reply_to_message_id=321 HTTP/1.1" 200 753
+bot.db 07/15/2021 05:46:17 PM DEBUG Updating 334292330 state with ['РОСС', 322, 'Скажите что-нибудь еще?)', 'Talking']
+bot 07/15/2021 05:46:17 PM INFO Rated Оцените качество фразы with: 👍
+urllib3.connectionpool 07/15/2021 05:46:37 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714241&timeout=20 HTTP/1.1" 200 320
+bot 07/15/2021 05:46:37 PM INFO Got msg from 334292330:ЕДАА!!!
+bot.db 07/15/2021 05:46:37 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:46:40 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=+%D0%AF+%D0%BD%D0%B5+%D1%85%D0%BE%D1%87%D1%83%2C+%D1%87%D1%82%D0%BE%D0%B1%D1%8B+%D0%BE%D0%BD%D0%B0+%D1%81%D0%BC%D0%BE%D1%82%D1%80%D0%B5%D0%BB%D0%B0+%D0%BD%D0%B0+%D0%BC%D0%B5%D0%BD%D1%8F+%D0%B3%D0%BE%D0%BB%D0%BE%D0%B4%D0%BD%D1%8B%D0%BC%D0%B8+%D0%B8%D0%B7-%D0%B7%D0%B0+%D1%82%D0%B2%D0%BE%D0%B5%D0%B3%D0%BE+%D0%BF%D0%BB%D0%BE%D1%85%D0%BE%D0%B3%D0%BE+%D0%B7%D1%80%D0%B5%D0%BD%D0%B8%D1%8F. HTTP/1.1" 200 626
+bot.db 07/15/2021 05:46:40 PM DEBUG Updating 334292330 state with ['РОСС', 324, ' Я не хочу, чтобы она смотрела на меня голодными из-за твоего плохого зрения.', 'Talking']
+bot 07/15/2021 05:46:40 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:46:40 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:46:40 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 522
+bot.db 07/15/2021 05:46:40 PM DEBUG Updating 334292330 state with ['РОСС', 325, 'Оцените качество фразы', 'Talking']
+urllib3.connectionpool 07/15/2021 05:46:49 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714242&timeout=20 HTTP/1.1" 200 772
+urllib3.connectionpool 07/15/2021 05:46:49 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1435774624890512073&text=%D0%92%D1%8B+%D0%BE%D1%86%D0%B5%D0%BD%D0%B8%D0%BB%D0%B8+%D0%BF%D1%80%D0%B5%D0%B4%D1%8B%D0%B4%D1%83%D1%89%D0%B5%D0%B5+%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%3A+%F0%9F%91%8E HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:46:49 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=334292330&message_id=325 HTTP/1.1" 200 390
+bot.db 07/15/2021 05:46:49 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:46:49 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%A1%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5+%D1%87%D1%82%D0%BE-%D0%BD%D0%B8%D0%B1%D1%83%D0%B4%D1%8C+%D0%B5%D1%89%D0%B5%3F%29&reply_to_message_id=325 HTTP/1.1" 200 753
+bot.db 07/15/2021 05:46:49 PM DEBUG Updating 334292330 state with ['РОСС', 326, 'Скажите что-нибудь еще?)', 'Talking']
+bot.db 07/15/2021 05:46:49 PM DEBUG Flushing the db to bot/data/db.csv
+bot.db 07/15/2021 05:46:49 PM DEBUG Flush complete
+bot 07/15/2021 05:46:49 PM INFO Rated Оцените качество фразы with: 👎
+urllib3.connectionpool 07/15/2021 05:47:07 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714243&timeout=20 HTTP/1.1" 200 368
+bot 07/15/2021 05:47:07 PM INFO Got msg from 334292330:Пойдем в поход?
+bot.db 07/15/2021 05:47:07 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:47:10 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=+%D0%90%D0%B3%D0%B0%2C+%D0%BD%D1%83+%D0%BB%D0%B0%D0%B4%D0%BD%D0%BE. HTTP/1.1" 200 309
+bot.db 07/15/2021 05:47:10 PM DEBUG Updating 334292330 state with ['РОСС', 328, ' Ага, ну ладно.', 'Talking']
+bot 07/15/2021 05:47:10 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:47:10 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:47:10 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 522
+bot.db 07/15/2021 05:47:10 PM DEBUG Updating 334292330 state with ['РОСС', 329, 'Оцените качество фразы', 'Talking']
+urllib3.connectionpool 07/15/2021 05:47:16 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714244&timeout=20 HTTP/1.1" 200 772
+urllib3.connectionpool 07/15/2021 05:47:16 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1435774626068011240&text=%D0%92%D1%8B+%D0%BE%D1%86%D0%B5%D0%BD%D0%B8%D0%BB%D0%B8+%D0%BF%D1%80%D0%B5%D0%B4%D1%8B%D0%B4%D1%83%D1%89%D0%B5%D0%B5+%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%3A+%F0%9F%91%8D HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:47:16 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=334292330&message_id=329 HTTP/1.1" 200 390
+bot.db 07/15/2021 05:47:16 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:47:16 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%A1%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5+%D1%87%D1%82%D0%BE-%D0%BD%D0%B8%D0%B1%D1%83%D0%B4%D1%8C+%D0%B5%D1%89%D0%B5%3F%29&reply_to_message_id=329 HTTP/1.1" 200 753
+bot.db 07/15/2021 05:47:16 PM DEBUG Updating 334292330 state with ['РОСС', 330, 'Скажите что-нибудь еще?)', 'Talking']
+bot 07/15/2021 05:47:16 PM INFO Rated Оцените качество фразы with: 👍
+urllib3.connectionpool 07/15/2021 05:47:34 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714245&timeout=20 HTTP/1.1" 200 337
+bot 07/15/2021 05:47:34 PM INFO Got msg from 334292330:Ну ладно.
+bot.db 07/15/2021 05:47:34 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:47:36 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=+%D0%9B%D0%B0%D0%B4%D0%BD%D0%BE%2C+%D0%BF%D0%BE%D1%81%D0%BB%D1%83%D1%88%D0%B0%D0%B9%D1%82%D0%B5+%D0%BC%D0%B5%D0%BD%D1%8F+%D0%B8+%D1%81%D0%B4%D0%B5%D0%BB%D0%B0%D0%B9%D1%82%D0%B5+%D1%81%D0%B2%D0%BE%D0%B5+%D0%B4%D0%B5%D0%BB%D0%BE. HTTP/1.1" 200 469
+bot.db 07/15/2021 05:47:36 PM DEBUG Updating 334292330 state with ['РОСС', 332, ' Ладно, послушайте меня и сделайте свое дело.', 'Talking']
+bot 07/15/2021 05:47:36 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:47:36 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:47:36 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 522
+bot.db 07/15/2021 05:47:36 PM DEBUG Updating 334292330 state with ['РОСС', 333, 'Оцените качество фразы', 'Talking']
+urllib3.connectionpool 07/15/2021 05:47:40 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714246&timeout=20 HTTP/1.1" 200 772
+urllib3.connectionpool 07/15/2021 05:47:40 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=1435774628077649009&text=%D0%92%D1%8B+%D0%BE%D1%86%D0%B5%D0%BD%D0%B8%D0%BB%D0%B8+%D0%BF%D1%80%D0%B5%D0%B4%D1%8B%D0%B4%D1%83%D1%89%D0%B5%D0%B5+%D1%81%D0%BE%D0%BE%D0%B1%D1%89%D0%B5%D0%BD%D0%B8%D0%B5%3A+%F0%9F%91%8E HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:47:40 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=334292330&message_id=333 HTTP/1.1" 200 390
+bot.db 07/15/2021 05:47:40 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:47:41 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%A1%D0%BA%D0%B0%D0%B6%D0%B8%D1%82%D0%B5+%D1%87%D1%82%D0%BE-%D0%BD%D0%B8%D0%B1%D1%83%D0%B4%D1%8C+%D0%B5%D1%89%D0%B5%3F%29&reply_to_message_id=333 HTTP/1.1" 200 753
+bot.db 07/15/2021 05:47:41 PM DEBUG Updating 334292330 state with ['РОСС', 334, 'Скажите что-нибудь еще?)', 'Talking']
+bot 07/15/2021 05:47:41 PM INFO Rated Оцените качество фразы with: 👎
+urllib3.connectionpool 07/15/2021 05:48:00 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714247&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:48:06 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714247&timeout=20 HTTP/1.1" 200 360
+bot 07/15/2021 05:48:06 PM INFO Got msg from 334292330:Динозаврики!
+bot.db 07/15/2021 05:48:06 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:48:09 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=+%D0%AD%D1%82%D0%BE+%D0%BD%D0%B5+%D0%B4%D0%B8%D0%BD%D0%BE%D0%B7%D0%B0%D0%B2%D1%80%D1%8B. HTTP/1.1" 200 332
+bot.db 07/15/2021 05:48:09 PM DEBUG Updating 334292330 state with ['РОСС', 336, ' Это не динозавры.', 'Talking']
+bot 07/15/2021 05:48:09 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:48:09 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:48:09 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 522
+bot.db 07/15/2021 05:48:09 PM DEBUG Updating 334292330 state with ['РОСС', 337, 'Оцените качество фразы', 'Talking']
+urllib3.connectionpool 07/15/2021 05:48:18 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714248&timeout=20 HTTP/1.1" 200 344
+bot 07/15/2021 05:48:18 PM INFO Got msg from 334292330:Попозавр...
+bot.db 07/15/2021 05:48:18 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:48:21 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=+%D0%A7%D1%82%D0%BE+%D0%B6%2C+%D1%8F+%D1%80%D0%B0%D0%B4%D0%B0+%D0%B7%D0%B0+%D0%B2%D0%B0%D1%81.+%D0%98%D1%82%D0%B0%D0%BA%3F HTTP/1.1" 200 362
+bot.db 07/15/2021 05:48:21 PM DEBUG Updating 334292330 state with ['РОСС', 339, ' Что ж, я рада за вас. Итак?', 'Talking']
+bot 07/15/2021 05:48:21 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:48:21 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:48:21 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 522
+bot.db 07/15/2021 05:48:21 PM DEBUG Updating 334292330 state with ['РОСС', 340, 'Оцените качество фразы', 'Talking']
+bot.db 07/15/2021 05:48:21 PM DEBUG Flushing the db to bot/data/db.csv
+bot.db 07/15/2021 05:48:21 PM DEBUG Flush complete
+urllib3.connectionpool 07/15/2021 05:48:38 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714249&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:48:46 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714249&timeout=20 HTTP/1.1" 200 404
+bot 07/15/2021 05:48:46 PM INFO Got msg from 334292330:Танци или гимнастика?
+bot.db 07/15/2021 05:48:46 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:48:49 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=+%D0%AD%D1%82%D0%BE+%D0%B1%D1%8B%D0%BB%D0%BE+%D0%BF%D0%BE%D1%85%D0%BE%D0%B6%D0%B5+%D0%BD%D0%B0+%D0%BA%D0%B0%D1%87%D0%B5%D0%BB%D0%B8+%D0%B2+%D0%B4%D0%B5%D1%82%D1%81%D1%82%D0%B2%D0%B5%21 HTTP/1.1" 200 426
+bot.db 07/15/2021 05:48:49 PM DEBUG Updating 334292330 state with ['РОСС', 342, ' Это было похоже на качели в детстве!', 'Talking']
+bot 07/15/2021 05:48:49 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:48:49 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:48:49 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 522
+bot.db 07/15/2021 05:48:49 PM DEBUG Updating 334292330 state with ['РОСС', 343, 'Оцените качество фразы', 'Talking']
+urllib3.connectionpool 07/15/2021 05:48:56 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714250&timeout=20 HTTP/1.1" 200 404
+bot 07/15/2021 05:48:56 PM INFO Got msg from 334292330:Танцы или гимнастика?
+bot.db 07/15/2021 05:48:56 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:48:58 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=+%D0%9D%D1%83%2C+%D1%8F+%D0%B2%D1%80%D0%BE%D0%B4%D0%B5+%D0%BA%D0%B0%D0%BA+%D0%B4%D0%BE%D0%BB%D0%B6%D0%B5%D0%BD+%D0%B1%D1%8B%D0%BB+%D1%8D%D1%82%D0%BE+%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C. HTTP/1.1" 200 440
+bot.db 07/15/2021 05:48:58 PM DEBUG Updating 334292330 state with ['РОСС', 345, ' Ну, я вроде как должен был это записать.', 'Talking']
+bot 07/15/2021 05:48:58 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:48:58 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:48:59 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 522
+bot.db 07/15/2021 05:48:59 PM DEBUG Updating 334292330 state with ['РОСС', 346, 'Оцените качество фразы', 'Talking']
+urllib3.connectionpool 07/15/2021 05:49:05 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714251&timeout=20 HTTP/1.1" 200 404
+bot 07/15/2021 05:49:05 PM INFO Got msg from 334292330:Танцы или гимнастика?
+bot.db 07/15/2021 05:49:05 PM DEBUG Getting 334292330 row from db
+urllib3.connectionpool 07/15/2021 05:49:07 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=+%D0%9D%D0%B5%D1%82%2C+%D1%8F+%D1%85%D0%BE%D1%87%D1%83+%D0%B7%D0%B0%D0%BD%D1%8F%D1%82%D1%8C%D1%81%D1%8F+%D1%81%D0%B5%D0%BA%D1%81%D0%BE%D0%BC. HTTP/1.1" 200 383
+bot.db 07/15/2021 05:49:07 PM DEBUG Updating 334292330 state with ['РОСС', 348, ' Нет, я хочу заняться сексом.', 'Talking']
+bot 07/15/2021 05:49:07 PM DEBUG Generating keyboard markup from ['👎', '👍']
+bot 07/15/2021 05:49:07 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:49:07 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=334292330&text=%D0%9E%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D0%B5+%D0%BA%D0%B0%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE+%D1%84%D1%80%D0%B0%D0%B7%D1%8B&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cud83d%5Cudc4e%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4e%22%7D%2C+%7B%22text%22%3A+%22%5Cud83d%5Cudc4d%22%2C+%22callback_data%22%3A+%22cb_%5Cud83d%5Cudc4d%22%7D%5D%5D%7D HTTP/1.1" 200 522
+bot.db 07/15/2021 05:49:07 PM DEBUG Updating 334292330 state with ['РОСС', 349, 'Оцените качество фразы', 'Talking']
+urllib3.connectionpool 07/15/2021 05:49:25 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714252&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:49:45 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714252&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:50:05 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714252&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:50:25 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714252&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:50:45 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714252&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:51:05 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714252&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:51:25 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714252&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:51:46 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714252&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:52:06 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714252&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:52:26 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714252&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:52:46 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714252&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:53:06 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714252&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:53:26 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714252&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:53:46 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714252&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:54:07 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714252&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:54:18 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714252&timeout=20 HTTP/1.1" 200 403
+bot 07/15/2021 05:54:18 PM INFO Got msg from 77444360:/start
+bot.db 07/15/2021 05:54:18 PM DEBUG Getting 77444360 row from db
+bot 07/15/2021 05:54:18 PM DEBUG Generating keyboard markup from ['ДЖОУИ', 'МОНИКА', 'РЕЙЧЕЛ', 'РОСС', 'ФИБИ', 'ЧЕНДЛЕР']
+bot 07/15/2021 05:54:18 PM DEBUG Generated keyboard markup
+urllib3.connectionpool 07/15/2021 05:54:18 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=77444360&text=%D0%92%D1%8B%D0%B1%D0%B5%D1%80%D0%B8%D1%82%D0%B5+%D0%B3%D0%B5%D1%80%D0%BE%D1%8F%2C+%D0%BF%D0%BE+%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D1%83+%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%BE%D0%B3%D0%BE+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%B1%D0%BE%D1%82&reply_markup=%7B%22inline_keyboard%22%3A+%5B%5B%7B%22text%22%3A+%22%5Cu0414%5Cu0416%5Cu041e%5Cu0423%5Cu0418%22%2C+%22callback_data%22%3A+%22cb_%5Cu0414%5Cu0416%5Cu041e%5Cu0423%5Cu0418%22%7D%2C+%7B%22text%22%3A+%22%5Cu041c%5Cu041e%5Cu041d%5Cu0418%5Cu041a%5Cu0410%22%2C+%22callback_data%22%3A+%22cb_%5Cu041c%5Cu041e%5Cu041d%5Cu0418%5Cu041a%5Cu0410%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0420%5Cu0415%5Cu0419%5Cu0427%5Cu0415%5Cu041b%22%2C+%22callback_data%22%3A+%22cb_%5Cu0420%5Cu0415%5Cu0419%5Cu0427%5Cu0415%5Cu041b%22%7D%2C+%7B%22text%22%3A+%22%5Cu0420%5Cu041e%5Cu0421%5Cu0421%22%2C+%22callback_data%22%3A+%22cb_%5Cu0420%5Cu041e%5Cu0421%5Cu0421%22%7D%5D%2C+%5B%7B%22text%22%3A+%22%5Cu0424%5Cu0418%5Cu0411%5Cu0418%22%2C+%22callback_data%22%3A+%22cb_%5Cu0424%5Cu0418%5Cu0411%5Cu0418%22%7D%2C+%7B%22text%22%3A+%22%5Cu0427%5Cu0415%5Cu041d%5Cu0414%5Cu041b%5Cu0415%5Cu0420%22%2C+%22callback_data%22%3A+%22cb_%5Cu0427%5Cu0415%5Cu041d%5Cu0414%5Cu041b%5Cu0415%5Cu0420%22%7D%5D%5D%7D HTTP/1.1" 200 1177
+bot.db 07/15/2021 05:54:18 PM DEBUG Updating 77444360 state with ['', 351, 'Выберите героя, по образу которого будет говорить бот', 'ChooseCharacter']
+urllib3.connectionpool 07/15/2021 05:54:20 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714253&timeout=20 HTTP/1.1" 200 1461
+urllib3.connectionpool 07/15/2021 05:54:20 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/answerCallbackQuery?callback_query_id=332620996971753371&text=%D0%91%D0%BE%D1%82+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%BA%D0%B0%D0%BA%3A+%D0%A0%D0%9E%D0%A1%D0%A1 HTTP/1.1" 200 25
+urllib3.connectionpool 07/15/2021 05:54:20 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/editMessageReplyMarkup?chat_id=77444360&message_id=351 HTTP/1.1" 200 569
+urllib3.connectionpool 07/15/2021 05:54:21 PM DEBUG https://api.telegram.org:443 "POST /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/sendMessage?chat_id=77444360&text=%D0%91%D0%BE%D1%82+%D0%B1%D1%83%D0%B4%D0%B5%D1%82+%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B8%D1%82%D1%8C+%D0%BA%D0%B0%D0%BA%3A+%D0%A0%D0%9E%D0%A1%D0%A1&reply_to_message_id=351 HTTP/1.1" 200 979
+bot.db 07/15/2021 05:54:21 PM DEBUG Updating 77444360 state with ['РОСС', 352, 'Бот будет говорить как: РОСС', 'SetCharacter']
+bot 07/15/2021 05:54:21 PM INFO Replied to 77444360 with:Бот будет говорить как: РОСС
+urllib3.connectionpool 07/15/2021 05:54:40 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714254&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:55:01 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714254&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:55:21 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714254&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:55:41 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714254&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:56:01 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714254&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:56:21 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714254&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:56:42 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714254&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:57:03 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714254&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:57:28 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714254&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:57:48 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714254&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:58:09 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714254&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:58:29 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714254&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:58:49 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714254&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:59:10 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714254&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:59:30 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714254&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 05:59:51 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714254&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 06:00:11 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714254&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 06:00:31 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714254&timeout=20 HTTP/1.1" 200 23
+urllib3.connectionpool 07/15/2021 06:00:52 PM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=994714254&timeout=20 HTTP/1.1" 200 23
