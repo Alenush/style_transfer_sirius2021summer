@@ -4,39 +4,60 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 from utils.token import obtain_token
 from utils.database import Database
 
+from utils.model import load_models
+
 import logging
 # import src.inference as inference
 
 TELEGRAM_API_TOKEN = obtain_token()
 main_characters = ['ДЖОУИ', 'МОНИКА', 'РЕЙЧЕЛ', 'РОСС', 'ФИБИ', 'ЧЕНДЛЕР']
 bot = telebot.TeleBot(TELEGRAM_API_TOKEN)
-db = Database("bot/db.csv")
+db = Database("bot/data/db.csv")
+models = load_models({
+    'ФИБИ': "bot/models/Phoebe_large_mono"
+})
 
 logging.basicConfig(
-    filename='bot/bot.log', 
-    format='%(name)s %(asctime)s %(levelname)s %(message)s', 
-    datefmt='%m/%d/%Y %I:%M:%S %p', 
-    encoding='utf-8', 
+    filename='bot/data/bot.log',
+    format='%(name)s %(asctime)s %(levelname)s %(message)s',
+    datefmt='%m/%d/%Y %I:%M:%S %p',
+    encoding='utf-8',
     level=logging.DEBUG)
 # model = inference.InferenceModel()
 logger = logging.getLogger("bot")
 
+
 def gen_markup(lst: list):
     logger.debug(f"Generating keyboard markup from {str(lst)}")
+
     markup = InlineKeyboardMarkup()
     markup.row_width = 2
+
     but_count = len(lst)
+
     for i in range(but_count // 2):
         markup.add(
-            InlineKeyboardButton(lst[2 * i], callback_data=f"cb_{lst[2 * i]}"), 
-            InlineKeyboardButton(lst[2 * i + 1], callback_data=f"cb_{lst[2 * i + 1]}"), 
+            InlineKeyboardButton(
+                lst[2 * i],
+                callback_data=f"cb_{lst[2 * i]}"
+            ),
+            InlineKeyboardButton(
+                lst[2 * i + 1],
+                callback_data=f"cb_{lst[2 * i + 1]}"
+            ),
         )
+
     if but_count % 2 == 1:
         markup.add(
-            InlineKeyboardButton(lst[but_count - 1], callback_data=f"cb_{lst[but_count - 1]}")
+            InlineKeyboardButton(
+                lst[but_count - 1],
+                callback_data=f"cb_{lst[but_count - 1]}"
+            )
         )
-    logger.debug(f"Generated keyboard markup")
+
+    logger.debug("Generated keyboard markup")
     return markup
+
 
 @bot.callback_query_handler(func=lambda call: True)
 def callback_query(call):
@@ -49,19 +70,111 @@ def callback_query(call):
         bot.edit_message_reply_markup(chat_id=chat_id, message_id=msg_id)
         reply = f"Бот будет говорить как: {choice}"
         msg = bot.send_message(chat_id, text=reply, reply_to_message_id=msg_id)
-        db.update(chat_id, character=choice, last_msg=reply, last_sent_msg_id=msg.message_id, state="Set_Character")
+        db.update(
+            chat_id,
+            character=choice,
+            last_msg=reply,
+            last_sent_msg_id=msg.message_id,
+            state="SetCharacter"
+        )
         logger.info(f"Replied to {chat_id} with:{reply}")
+
 
 @bot.message_handler(func=lambda message: True)
 def message_handler(message):
     logger.info(f"Got msg from {message.chat.id}:{message.text}")
-    msg = bot.send_message(message.chat.id, "Выберите героя, по образу которого будет говорить бот", reply_markup=gen_markup(main_characters))
-    
+
+    chat_id = message.chat.id
+    msg_text = message.text
+    data = db.get(chat_id)
+
+    if data["state"] == "" or (
+       data["state"] == "Talking" and msg_text == "/change_hero"):
+
+        reply_text = "Выберите героя, по образу которого будет говорить бот"
+
+        msg = bot.send_message(
+            chat_id,
+            reply_text,
+            reply_markup=gen_markup(main_characters)
+        )
+        db.update(
+            chat_id,
+            character="",
+            last_msg=reply_text,
+            last_sent_msg_id=msg.message_id,
+            state="ChooseCharacter"
+        )
+    elif data["state"] == "ChooseCharacter":
+        reply_text = "Выберите героя в опросе выше"
+
+        msg = bot.send_message(
+            chat_id,
+            reply_text
+        )
+        db.update(
+            chat_id,
+            character="",
+            last_msg=reply_text,
+            last_sent_msg_id=msg.message_id,
+            state="ChooseCharacter"
+        )
+    elif data["state"] == "SetCharacter":
+        reply_text = f"Привет, я {data['character']}. Давай общаться?"
+
+        msg = bot.send_message(
+            chat_id,
+            reply_text
+        )
+        db.update(
+            chat_id,
+            character="",
+            last_msg=reply_text,
+            last_sent_msg_id=msg.message_id,
+            state="Talking"
+        )
+    elif data["state"] == "Talking":
+        reply_text = models[data["character"]].get_reply(msg_text)
+
+        msg = bot.send_message(
+            chat_id,
+            reply_text
+        )
+        db.update(
+            chat_id,
+            character="",
+            last_msg=reply_text,
+            last_sent_msg_id=msg.message_id,
+            state="Talking"
+        )
+
+        reply_text = "Оцените качество фразы"
+
+        msg = bot.send_message(
+            chat_id,
+            reply_text,
+            reply_markup=gen_markup(["👎", "👍"])
+        )
+        db.update(
+            chat_id,
+            character="",
+            last_msg=reply_text,
+            last_sent_msg_id=msg.message_id,
+            state="Talking"
+        )
+    else:
+        logger.fatal("Unknown state")
+        raise RuntimeError("Unknown state")
+
 
 if __name__ == "__main__":
+    logger.info("start of session")
     try:
         bot.polling(none_stop=True)
-    except:
-        print("Ok")
+    except Exception as e:
+        logger.warning(f"Stopping the chat bot because of {e}")
+    finally:
+        logger.debug("Flushing the db")
         db.flush()
-        print("Ok")
+        logger.debug("Flushed the db")
+        logger.info("End of session")
