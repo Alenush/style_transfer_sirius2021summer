@@ -21,7 +21,7 @@ class Rating:
         self.count = UPDATES_BEFORE_FLUSH
         if os.path.exists(filename):
             logger.info(f"Read rating storage from {filename}")
-            self.data = pd.read_csv(filename, index_col=0)
+            self.data = pd.read_csv(filename)
             self.next_idx = self.data.tail(1).index.item() + 1
         else:
             logger.info("Created empty rating storage")

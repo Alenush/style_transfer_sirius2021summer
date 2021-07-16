@@ -89,12 +89,6 @@ def callback_query(call):
 
         data = db.get(chat_id)
 
-        bot.send_message(
-            chat_id,
-            text="Мы можем продолжить диалог:)",
-            reply_to_message_id=msg_id
-        )
-
         rt_db.update(
             chat_id,
             data['prompt'],
@@ -107,7 +101,7 @@ def callback_query(call):
             state="Talking"
         )
 
-        logger.info(f"Rated {data['reply']} with: {choice}")
+        logger.info(f"Rated reply {data['reply']} for {data['prompt']} with: {choice}")
 
 
 @bot.message_handler(func=lambda message: True)
@@ -149,7 +143,8 @@ def message_handler(message):
 
         bot.send_message(
             chat_id,
-            reply_text
+            reply_text,
+            reply_markup=gen_markup(reaction)
         )
         db.update(
             chat_id,
@@ -157,43 +152,29 @@ def message_handler(message):
             reply=reply_text,
             state="Talking"
         )
-
-        reply_text = "Оцените качество фразы"
-
-        bot.send_message(
-            chat_id,
-            reply_text,
-            reply_markup=gen_markup(reaction)
-        )
     else:
         logger.fatal("Unknown state")
         raise BotLogicError("Unknown state")
 
 
 if __name__ == "__main__":
+    models = load_models({
+        'ФИБИ': "bot/models/Phoebe_mono_replics_cleaned",
+        'ДЖОУИ': "",
+        'МОНИКА': '',
+        'РЕЙЧЕЛ': "",
+        'РОСС': "",
+        'ЧЕНДЛЕР': ''
+    })
     try:
-        models = load_models({
-            'ФИБИ': "bot/models/Phoebe_mono_replics_cleaned",
-            'ДЖОУИ': "",
-            'МОНИКА': '',
-            'РЕЙЧЕЛ': "",
-            'РОСС': "",
-            'ЧЕНДЛЕР': ''
-        })
-        while True:
-            try:
-                logger.info("start of session")
-                bot.polling(none_stop=True)
-            except Exception as e:
-                logger.warning(f"Stopping the chat bot because of {e}")
-                traceback.print_tb(e.__traceback__)
-            finally:
-                logger.debug("Flushing the db")
-                db.flush()
-                rt_db.flush()
-                logger.debug("Flushed the db")
-                logger.info("End of session")
-    except KeyboardInterrupt:
+        logger.info("start of session")
+        bot.polling(none_stop=True)
+    except Exception as e:
+        logger.warning(f"Stopping the chat bot because of {e}")
+        traceback.print_tb(e.__traceback__)
+    except KeyboardInterrupt as e:
+        logger.warning(f"Stopping the chat bot because of kill")
+    finally:
         logger.debug("Flushing the db")
         db.flush()
         rt_db.flush()

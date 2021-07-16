@@ -58,7 +58,6 @@ class Model:
                         "Tag </s> not found in generated for prompt " +
                         text
                     )
-                    generated_text = generated_text
             except Exception as e:
                 raise ModelError(f"Error {e} occured!")
             return generated_text

@@ -1,5 +1,6 @@
 chat_id,character,prompt,reply,state
 77444360,,,,ChooseCharacter
 584959812,ФИБИ,"Фиби, спой про кота", Да ладно же!,Talking
-334292330,ЧЕНДЛЕР,Привет,Model for character ЧЕНДЛЕР not loaded.,Talking
-415713765,,,,ChooseCharacter
+334292330,ФИБИ,Вонючий кот!," Ой, это так интересно. О Боже.",Talking
+415713765,ЧЕНДЛЕР,Отлично?,Model for character ЧЕНДЛЕР not loaded.,Talking
+353852664,ДЖОУИ,,,Talking
