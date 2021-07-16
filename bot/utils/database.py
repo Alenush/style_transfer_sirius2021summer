@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import logging
 
-UPDATES_BEFORE_FLUSH = 10
+from config.constants import UPDATES_BEFORE_FLUSH
 
 
 logging.basicConfig(
@@ -27,26 +27,23 @@ class Database:
                 columns=[
                     'chat_id',
                     'character',
-                    'last_sent_msg_id',
-                    'last_msg',
+                    'prompt',
+                    'reply',
                     'state'
                 ]
             ).set_index('chat_id')
 
     def update(self, chat_id, character=None,
-               last_sent_msg_id=None, last_msg=None, state=None):
+               prompt=None, reply=None, state=None):
 
         if chat_id in self.data.index:
             data = self.data.loc[chat_id]
             character = data["character"] if character is None else character
-            last_msg = data["last_msg"] if last_msg is None else last_msg
+            prompt = data["prompt"] if prompt is None else prompt
+            reply = data["reply"] if reply is None else reply
             state = data["state"] if state is None else state
-            if last_sent_msg_id is None:
-                last_sent_msg_id = data["last_sent_msg_id"]
-            else:
-                last_sent_msg_id = last_sent_msg_id
 
-        new_data = [character, last_sent_msg_id, last_msg, state]
+        new_data = [character, prompt, reply, state]
         self.data.loc[chat_id] = new_data
         logger.debug(f"Updating {chat_id} state with {new_data}")
 

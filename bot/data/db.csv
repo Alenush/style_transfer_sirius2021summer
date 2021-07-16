@@ -1,3 +1,5 @@
-chat_id,character,last_sent_msg_id,last_msg,state
-415713765,,240,"Выберите героя, по образу которого будет говорить бот",Talking
-334292330,РОСС,340,Оцените качество фразы,Talking
+chat_id,character,prompt,reply,state
+77444360,,,,ChooseCharacter
+584959812,ФИБИ,"Фиби, спой про кота", Да ладно же!,Talking
+334292330,ЧЕНДЛЕР,Привет,Model for character ЧЕНДЛЕР not loaded.,Talking
+415713765,,,,ChooseCharacter

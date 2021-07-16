@@ -1,3 +1,2 @@
-bot/data/config.json
-bot/models
+*.bin
 __pycache__/
