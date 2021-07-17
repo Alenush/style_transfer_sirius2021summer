@@ -4,3 +4,4 @@ requests
 setuptools_rust
 torch>=1.4.0
 transformers
+tqdm

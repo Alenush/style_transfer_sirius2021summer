@@ -1,65 +1,82 @@
-import os
 import pandas as pd
+import os
+from datetime import datetime
+import sys
 import logging
 
-from config.constants import UPDATES_BEFORE_FLUSH, reaction
-from datetime import datetime
+from ui.constants import FLUSH_AFTER, reaction
 
 
-logging.basicConfig(
-    filename='bot/data/bot.log',
-    format='%(name)s %(asctime)s %(levelname)s %(message)s',
-    datefmt='%m/%d/%Y %I:%M:%S %p',
-    encoding='utf-8',
-    level=logging.DEBUG)
+if sys.version_info >= (3, 9):
+    logging.basicConfig(
+        filename='data/bot.log',
+        format='%(name)s %(asctime)s %(levelname)s %(message)s',
+        datefmt='%m/%d/%Y %I:%M:%S %p',
+        encoding='utf-8',
+        level=logging.DEBUG)
+else:
+    logging.basicConfig(
+        filename='data/bot.log',
+        format='%(name)s %(asctime)s %(levelname)s %(message)s',
+        datefmt='%m/%d/%Y %I:%M:%S %p',
+        level=logging.DEBUG)
 logger = logging.getLogger("bot.rating")
 
 
 class Rating:
-    def __init__(self, filename):
-        self.filename = filename
-        self.count = UPDATES_BEFORE_FLUSH
-        if os.path.exists(filename):
-            logger.info(f"Read rating storage from {filename}")
-            self.data = pd.read_csv(filename)
-            self.next_idx = self.data.tail(1).index.item() + 1
-        else:
-            logger.info("Created empty rating storage")
-            self.data = pd.DataFrame(
-                columns=[
-                    'datetime',
-                    'chat_id',
-                    'prompt',
-                    'reply',
-                    'character',
-                    'rating'
-                ]
-            )
-            self.next_idx = 0
+    def __init__(self, filename) -> None:
+        logger.debug(f"Request to create a RateLog assigned to {filename}")
 
-    def update(self, chat_id, prompt, reply, character, rating):
+        self.count = FLUSH_AFTER
+        self.filename = filename
+        self.columns = [
+            'datetime',
+            'chat_id',
+            'prompt',
+            'reply',
+            'character',
+            'rating'
+        ]
+
+        if os.path.exists(self.filename):
+            self.df = pd.read_csv(self.filename)
+            try:
+                self.next = self.df.tail(1).index.item() + 1
+            except Exception:
+                self.next = 0
+            logger.debug(f"Initialized RateLog from {filename}")
+        else:
+            self.df = pd.DataFrame(columns=self.columns)
+            self.next = 0
+            logger.debug("Initialized RateLog from scratch")
+
+    def append(self, chat_id, prompt,
+               reply, character, rating):
+
+        logger.debug(f"Update RateLog for {chat_id}")
 
         date_time = datetime.today().strftime('%Y-%m-%d-%H:%M:%S')
-        new_data = [
+        binarized_rating = reaction.index(rating)
+
+        self.df.loc[self.next] = [
             date_time,
             chat_id,
             prompt,
             reply,
             character,
-            reaction.index(rating)
+            binarized_rating
         ]
-        self.data.loc[self.next_idx] = new_data
-        logger.debug(f"Adding {new_data} row to rating data")
-
+        self.next += 1
         self.count -= 1
+
         if self.count == 0:
             self.flush()
-            self.count = UPDATES_BEFORE_FLUSH
 
-    def show(self):
-        print(self.data)
+    def print(self):
+        print(f"File: {self.filename}\n")
+        print(self.df)
 
     def flush(self):
-        logger.debug(f"Flushing the rating to {self.filename}")
-        self.data.to_csv(self.filename, index=False, encoding='utf-8')
-        logger.debug("Flush complete")
+        self.df.to_csv(self.filename, index=False, encoding='utf-8')
+        self.count = FLUSH_AFTER
+        logger.debug("RateLog flushed")

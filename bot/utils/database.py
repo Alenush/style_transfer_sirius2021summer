@@ -1,68 +1,83 @@
-import os
 import pandas as pd
+import numpy as np
+import os
+import sys
 import logging
 
-from config.constants import UPDATES_BEFORE_FLUSH
+
+from ui.constants import FLUSH_AFTER
 
 
-logging.basicConfig(
-    filename='bot/data/bot.log',
-    format='%(name)s %(asctime)s %(levelname)s %(message)s',
-    datefmt='%m/%d/%Y %I:%M:%S %p',
-    encoding='utf-8',
-    level=logging.DEBUG)
-logger = logging.getLogger("bot.db")
+if sys.version_info >= (3, 9):
+    logging.basicConfig(
+        filename='data/bot.log',
+        format='%(name)s %(asctime)s %(levelname)s %(message)s',
+        datefmt='%m/%d/%Y %I:%M:%S %p',
+        encoding='utf-8',
+        level=logging.DEBUG)
+else:
+    logging.basicConfig(
+        filename='data/bot.log',
+        format='%(name)s %(asctime)s %(levelname)s %(message)s',
+        datefmt='%m/%d/%Y %I:%M:%S %p',
+        level=logging.DEBUG)
+logger = logging.getLogger("bot.database")
 
 
 class Database:
-    def __init__(self, filename):
+    def __init__(self, filename) -> None:
+        logger.debug(f"Request to create a DB assigned to {filename}")
+
+        self.count = FLUSH_AFTER
         self.filename = filename
-        self.count = UPDATES_BEFORE_FLUSH
-        if os.path.exists(filename):
-            logger.info(f"Read db from {filename}")
-            self.data = pd.read_csv(filename, index_col=0)
+        self.columns = [
+            'chat_id',
+            'prompt',
+            'reply',
+            'character'
+        ]
+
+        if os.path.exists(self.filename):
+            self.df = pd.read_csv(self.filename, index_col=0)
+            logger.debug(f"Initialized DB from {filename}")
         else:
-            logger.info("Created empty db")
-            self.data = pd.DataFrame(
-                columns=[
-                    'chat_id',
-                    'character',
-                    'prompt',
-                    'reply',
-                    'state'
-                ]
-            ).set_index('chat_id')
+            self.df = pd.DataFrame(columns=self.columns).set_index('chat_id')
+            logger.debug("Initialized DB from scratch")
 
-    def update(self, chat_id, character=None,
-               prompt=None, reply=None, state=None):
+    def update(self, chat_id, data):
 
-        if chat_id in self.data.index:
-            data = self.data.loc[chat_id]
-            character = data["character"] if character is None else character
-            prompt = data["prompt"] if prompt is None else prompt
-            reply = data["reply"] if reply is None else reply
-            state = data["state"] if state is None else state
+        logger.debug(f"Update DB for {chat_id} with {data}")
 
-        new_data = [character, prompt, reply, state]
-        self.data.loc[chat_id] = new_data
-        logger.debug(f"Updating {chat_id} state with {new_data}")
-
+        if chat_id not in self.df.index:
+            self.df.loc[chat_id] = [np.nan, np.nan, np.nan]
+        for column_name, value in data.items():
+            self.df[column_name][chat_id] = value
+            print(column_name, value)
         self.count -= 1
+
         if self.count == 0:
             self.flush()
-            self.count = UPDATES_BEFORE_FLUSH
+
+    def initialize(self, chat_id):
+        logger.debug(f"Clean DB data for {chat_id}")
+        self.df.loc[chat_id] = [np.nan, np.nan, np.nan]
+        self.count -= 1
+
+        if self.count == 0:
+            self.flush()
 
     def get(self, chat_id):
-        logger.debug(f"Getting {chat_id} row from db")
-        if chat_id in self.data.index:
-            return self.data.loc[chat_id]
+        logger.debug(f"Get DB data for {chat_id}")
+        if chat_id in self.df.index:
+            return self.df.loc[chat_id]
         else:
             return None
 
-    def show(self):
-        print(self.data)
+    def print(self):
+        print(f"File: {self.filename}\n")
+        print(self.df)
 
     def flush(self):
-        logger.debug(f"Flushing the db to {self.filename}")
-        self.data.to_csv(self.filename, encoding='utf-8')
-        logger.debug("Flush complete")
+        self.df.to_csv(self.filename, encoding='utf-8')
+        self.count = FLUSH_AFTER
+        logger.debug("DB flushed")
