@@ -12,6 +12,8 @@ from utils.model import load_models
 from ui.constants import TOKEN, main_characters, reaction, greeting
 
 import numpy as np
+import requests
+from time import sleep
 
 bot = telebot.TeleBot(TOKEN)
 db = Database("data/db.csv")
@@ -120,7 +122,6 @@ def message_handler(message):
     chat_id = message.chat.id
     msg_text = message.text
     data = db.get(chat_id)
-    print(data)
 
     flag_start = (data is not None) and (not isinstance(
         data["character"], str)) and np.isnan(data["character"])
@@ -181,7 +182,11 @@ if __name__ == "__main__":
     })
     try:
         logger.info("start of session")
-        bot.polling(none_stop=True)
+        while True:
+            try:
+                bot.polling(none_stop=True)
+            except requests.exceptions.ConnectionError:
+                sleep(1)
     except Exception as e:
         logger.warning(f"Stopping the chat bot because of {e}")
         traceback.print_tb(e.__traceback__)

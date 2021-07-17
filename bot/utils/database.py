@@ -52,7 +52,6 @@ class Database:
             self.df.loc[chat_id] = [np.nan, np.nan, np.nan]
         for column_name, value in data.items():
             self.df[column_name][chat_id] = value
-            print(column_name, value)
         self.count -= 1
 
         if self.count == 0:
