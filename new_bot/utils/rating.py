@@ -42,7 +42,7 @@ class Rating:
             self.df = pd.read_csv(self.filename)
             try:
                 self.next = self.df.tail(1).index.item() + 1
-            except Exception as e:
+            except Exception:
                 self.next = 0
             logger.debug(f"Initialized RateLog from {filename}")
         else:
@@ -50,9 +50,9 @@ class Rating:
             self.next = 0
             logger.debug("Initialized RateLog from scratch")
 
-    def append(self, chat_id, prompt, 
+    def append(self, chat_id, prompt,
                reply, character, rating):
-        
+
         logger.debug(f"Update RateLog for {chat_id}")
 
         date_time = datetime.today().strftime('%Y-%m-%d-%H:%M:%S')

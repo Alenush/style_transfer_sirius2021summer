@@ -3,7 +3,6 @@ import numpy as np
 import os
 import sys
 import logging
-from datetime import datetime
 
 
 from ui.constants import FLUSH_AFTER
@@ -48,7 +47,7 @@ class Database:
     def update(self, chat_id, data):
 
         logger.debug(f"Update DB for {chat_id} with {data}")
-        
+
         if chat_id not in self.df.index:
             self.df.loc[chat_id] = [np.nan, np.nan, np.nan]
         for column_name, value in data.items():

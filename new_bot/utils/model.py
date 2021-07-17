@@ -41,7 +41,7 @@ class Model:
 
             if self.with_gpu:
                 self.model.cuda()
-            
+
             logger.debug(f"Model for {character} loaded from {model_name}")
         else:
             self.tok = self.model = None

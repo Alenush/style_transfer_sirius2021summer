@@ -10,7 +10,6 @@ from utils.rating import Rating
 from utils.model import load_models
 
 from ui.constants import TOKEN, main_characters, reaction, greeting
-from ui.exceptions import BotLogicError
 
 import numpy as np
 
@@ -27,6 +26,7 @@ logging.basicConfig(
     level=logging.DEBUG)
 # model = inference.InferenceModel()
 logger = logging.getLogger("bot")
+
 
 def gen_markup(lst: list):
     logger.debug(f"Generating keyboard markup from {str(lst)}")
@@ -59,6 +59,7 @@ def gen_markup(lst: list):
     logger.debug("Generated keyboard markup")
     return markup
 
+
 @bot.callback_query_handler(func=lambda call: True)
 def callback_query(call):
     choice = call.data[3:] if isinstance(call.data, str) else None
@@ -70,13 +71,17 @@ def callback_query(call):
     if choice in main_characters:
         bot.answer_callback_query(call.id, f"Бот будет говорить как: {choice}")
         bot.edit_message_reply_markup(chat_id=chat_id, message_id=msg_id)
-        bot.edit_message_text(f"Сейчас скажу что-нибудь, как {choice}...", chat_id, msg_id)
-        bot.edit_message_text(models[choice].get_reply("Привет!"), chat_id, msg_id)
-        
+        bot.edit_message_text(
+            f"Сейчас скажу что-нибудь, как {choice}...",
+            chat_id, msg_id)
+        bot.edit_message_text(
+            models[choice].get_reply("Привет!"),
+            chat_id, msg_id)
+
         db.update(
             chat_id,
             data={
-                'character' : choice
+                'character': choice
             }
         )
 
@@ -98,7 +103,9 @@ def callback_query(call):
             choice
         )
 
-        logger.info(f"Rated reply {data['reply']} for {data['prompt']} with: {choice}")
+        logger.info(f"Rated reply {data['reply']} for " +
+                    f"{data['prompt']} with: {choice}")
+
 
 @bot.message_handler(func=lambda message: True)
 def message_handler(message):
@@ -143,18 +150,23 @@ def message_handler(message):
 
         reply_text = models[character].get_reply(msg_text)
         bot.edit_message_text(reply_text, chat_id, msg_id)
-        bot.edit_message_reply_markup(chat_id=chat_id, message_id=msg_id, reply_markup=gen_markup(reaction))
+        bot.edit_message_reply_markup(
+            chat_id=chat_id, message_id=msg_id,
+            reply_markup=gen_markup(reaction))
         db.update(
             chat_id,
             data={
-                'prompt' : msg_text,
-                'reply'  : reply_text
+                'prompt': msg_text,
+                'reply': reply_text
             }
         )
 
+
 if __name__ == "__main__":
+    # models/Phoebe_mono_replics_cleaned
+
     models = load_models({
-        'ФИБИ': "", # models/Phoebe_mono_replics_cleaned
+        'ФИБИ': "",
         'ДЖОУИ': "",
         'МОНИКА': '',
         'РЕЙЧЕЛ': "",
@@ -168,8 +180,8 @@ if __name__ == "__main__":
         logger.warning(f"Stopping the chat bot because of {e}")
         traceback.print_tb(e.__traceback__)
         print(e)
-    except KeyboardInterrupt as e:
-        logger.warning(f"Stopping the chat bot because of kill")
+    except KeyboardInterrupt:
+        logger.warning("Stopping the chat bot because of kill")
     finally:
         logger.debug("Flushing the db")
         db.flush()
