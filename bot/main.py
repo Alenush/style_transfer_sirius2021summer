@@ -173,11 +173,11 @@ if __name__ == "__main__":
 
     models = load_models({
         'ФИБИ': "models/Phoebe_mono_replics_cleaned",
-        'ДЖОУИ': "",
-        'МОНИКА': '',
-        'РЕЙЧЕЛ': "",
-        'РОСС': "",
-        'ЧЕНДЛЕР': ''
+        'ДЖОУИ': "models/Joey_mono_replics_cleaned",
+        'МОНИКА': 'models/Monika_mono_replics_cleaned',
+        'РЕЙЧЕЛ': "models/Rachel_mono_replics_cleaned",
+        'РОСС': "models/Ross_mono_replics_cleaned",
+        'ЧЕНДЛЕР': 'models/Chandler_mono_replics_cleaned'
     })
     try:
         logger.info("start of session")
