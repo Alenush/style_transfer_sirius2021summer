@@ -74,14 +74,20 @@ def callback_query(call):
         bot.edit_message_text(
             f"Сейчас скажу что-нибудь, как {choice}...",
             chat_id, msg_id)
+        reply = models[choice].get_reply("Привет!")
         bot.edit_message_text(
-            models[choice].get_reply("Привет!"),
+            reply,
             chat_id, msg_id)
+        bot.edit_message_reply_markup(
+            chat_id=chat_id, message_id=msg_id,
+            reply_markup=gen_markup(reaction))
 
         db.update(
             chat_id,
             data={
-                'character': choice
+                'character': choice,
+                'prompt': "Привет!",
+                "reply": reply
             }
         )
 
@@ -166,7 +172,7 @@ if __name__ == "__main__":
     # models/Phoebe_mono_replics_cleaned
 
     models = load_models({
-        'ФИБИ': "",
+        'ФИБИ': "models/Phoebe_mono_replics_cleaned",
         'ДЖОУИ': "",
         'МОНИКА': '',
         'РЕЙЧЕЛ': "",
