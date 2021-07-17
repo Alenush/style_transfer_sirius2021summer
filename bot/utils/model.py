@@ -33,6 +33,13 @@ class Model:
 
         self.character = character
         self.with_gpu = torch.cuda.is_available()
+    
+        if self.with_gpu:
+            logger.warning("Model loaded on gpu")
+            print("Model loaded on gpu")
+        else:
+            logger.warning("Model loaded on cpu")
+            print("Model loaded on cpu")
 
         # If model is not loaded for test purposes
         if model_name != '':
