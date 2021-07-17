@@ -94,14 +94,17 @@ class Model:
                         text
                     )
             except Exception as e:
+                logger.error(f"Raised an {e} exception!")
                 raise ModelError(f"Error {e} occured!")
             return f"{self.character}: {generated_text}"
         else:
+            logger.error(f"Model for character {self.character} not loaded.")
             return f"Model for character {self.character} not loaded."
 
 
 def load_models(names: dict) -> dict:
     print("Loading models:")
+    logger.debug(f"Loading models: from {names}")
 
     mds = dict()
     for name, model_name in tqdm(names.items()):

@@ -65,6 +65,8 @@ def callback_query(call):
     chat_id = call.message.chat.id
     msg_id = call.message.id
 
+    logger.debug(f"Callback handler called with {choice} from {chat_id}")
+
     if choice in main_characters:
         bot.answer_callback_query(call.id, f"Бот будет говорить как: {choice}")
         bot.edit_message_reply_markup(chat_id=chat_id, message_id=msg_id)
@@ -128,12 +130,16 @@ def message_handler(message):
         )
 
         db.initialize(chat_id=chat_id)
+
+        logger.info(f"Request from {chat_id} to change character")
     else:
         character = data["character"]
         msg_id = bot.send_message(
             chat_id,
             f"Сейчас скажу что-нибудь, как {character}..."
         ).message_id
+
+        logger.info(f"Generated text for {chat_id} for {character}")
 
         reply_text = models[character].get_reply(msg_text)
         bot.edit_message_text(reply_text, chat_id, msg_id)

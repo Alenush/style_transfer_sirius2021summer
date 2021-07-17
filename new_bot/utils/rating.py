@@ -25,6 +25,8 @@ logger = logging.getLogger("bot.rating")
 
 class Rating:
     def __init__(self, filename) -> None:
+        logger.debug(f"Request to create a RateLog assigned to {filename}")
+
         self.count = FLUSH_AFTER
         self.filename = filename
         self.columns = [
@@ -42,13 +44,17 @@ class Rating:
                 self.next = self.df.tail(1).index.item() + 1
             except Exception as e:
                 self.next = 0
+            logger.debug(f"Initialized RateLog from {filename}")
         else:
             self.df = pd.DataFrame(columns=self.columns)
             self.next = 0
+            logger.debug("Initialized RateLog from scratch")
 
     def append(self, chat_id, prompt, 
                reply, character, rating):
         
+        logger.debug(f"Update RateLog for {chat_id}")
+
         date_time = datetime.today().strftime('%Y-%m-%d-%H:%M:%S')
         binarized_rating = reaction.index(rating)
 
@@ -73,3 +79,4 @@ class Rating:
     def flush(self):
         self.df.to_csv(self.filename, index=False, encoding='utf-8')
         self.count = FLUSH_AFTER
+        logger.debug("RateLog flushed")
