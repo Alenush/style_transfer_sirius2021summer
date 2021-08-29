@@ -12,5 +12,3 @@ Sirius 2021, смена
 * Файнтюн XL модели https://github.com/sberbank-ai/ru-gpts/blob/master/examples/Finetune_RuGPTs_with_HF.ipynb
 * Файнтюн как языковой модели https://github.com/huggingface/transformers/tree/master/examples/pytorch/language-modeling
 * GeDi: Generative Discriminator Guided Sequence Generation. Статья: https://arxiv.org/abs/2009.06367
-
-Time Management table: https://docs.google.com/spreadsheets/d/1Y5-vcJ5pPb2wkYdKkKmTI2Pmfk1_AmY8YubYSt_c8U4/edit?usp=sharing
