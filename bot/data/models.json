@@ -1,0 +1,8 @@
+{
+    "ФИБИ": "models/Phoebe_mono_replics_cleaned",
+    "ДЖОУИ": "models/Joey_mono_replics_cleaned",
+    "МОНИКА": "models/Monika_mono_replics_cleaned",
+    "РЕЙЧЕЛ": "models/Rachel_mono_replics_cleaned",
+    "РОСС": "models/Ross_mono_replics_cleaned",
+    "ЧЕНДЛЕР": "models/Chandler_mono_replics_cleaned"
+}

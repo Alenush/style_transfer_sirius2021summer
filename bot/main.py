@@ -11,6 +11,7 @@ from utils.model import load_models
 
 from ui.constants import TOKEN, main_characters, reaction, greeting
 
+import json
 import numpy as np
 import requests
 from time import sleep
@@ -18,6 +19,15 @@ from time import sleep
 bot = telebot.TeleBot(TOKEN)
 db = Database("data/db.csv")
 rt_db = Rating("data/rating.csv")
+NO_MODEL = ""
+DEBUG_MODELS = {
+    'ФИБИ': NO_MODEL,
+    'ДЖОУИ': NO_MODEL,
+    'МОНИКА': NO_MODEL,
+    'РЕЙЧЕЛ': NO_MODEL,
+    'РОСС': NO_MODEL,
+    'ЧЕНДЛЕР': NO_MODEL
+}
 models = None
 
 logging.basicConfig(
@@ -170,16 +180,11 @@ def message_handler(message):
 
 
 if __name__ == "__main__":
-    # models/Phoebe_mono_replics_cleaned
 
-    models = load_models({
-        'ФИБИ': "models/Phoebe_mono_replics_cleaned",
-        'ДЖОУИ': "models/Joey_mono_replics_cleaned",
-        'МОНИКА': 'models/Monika_mono_replics_cleaned',
-        'РЕЙЧЕЛ': "models/Rachel_mono_replics_cleaned",
-        'РОСС': "models/Ross_mono_replics_cleaned",
-        'ЧЕНДЛЕР': 'models/Chandler_mono_replics_cleaned'
-    })
+    with open("data/models.json", encoding="utf-8") as f:
+        models_paths = json.load(f)
+
+    models = load_models(models_paths) # DEBUG_MODELS
     try:
         logger.info("start of session")
         while True:

@@ -252,3 +252,77 @@ bot.database 07/17/2021 03:42:33 AM DEBUG DB flushed
 bot.rating 07/17/2021 03:42:33 AM DEBUG RateLog flushed
 bot 07/17/2021 03:42:33 AM DEBUG Flushed the db
 bot 07/17/2021 03:42:33 AM INFO End of session
+bot.database 09/04/2021 10:28:52 AM DEBUG Request to create a DB assigned to data/db.csv
+bot.database 09/04/2021 10:28:52 AM DEBUG Initialized DB from data/db.csv
+bot.rating 09/04/2021 10:28:52 AM DEBUG Request to create a RateLog assigned to data/rating.csv
+bot.rating 09/04/2021 10:28:52 AM DEBUG Initialized RateLog from data/rating.csv
+bot.database 09/04/2021 10:29:11 AM DEBUG Request to create a DB assigned to data/db.csv
+bot.database 09/04/2021 10:29:11 AM DEBUG Initialized DB from data/db.csv
+bot.rating 09/04/2021 10:29:11 AM DEBUG Request to create a RateLog assigned to data/rating.csv
+bot.rating 09/04/2021 10:29:11 AM DEBUG Initialized RateLog from data/rating.csv
+bot.database 09/04/2021 10:29:42 AM DEBUG Request to create a DB assigned to data/db.csv
+bot.database 09/04/2021 10:29:42 AM DEBUG Initialized DB from data/db.csv
+bot.rating 09/04/2021 10:29:42 AM DEBUG Request to create a RateLog assigned to data/rating.csv
+bot.rating 09/04/2021 10:29:42 AM DEBUG Initialized RateLog from data/rating.csv
+bot.database 09/04/2021 10:29:59 AM DEBUG Request to create a DB assigned to data/db.csv
+bot.database 09/04/2021 10:30:00 AM DEBUG Initialized DB from data/db.csv
+bot.rating 09/04/2021 10:30:00 AM DEBUG Request to create a RateLog assigned to data/rating.csv
+bot.rating 09/04/2021 10:30:00 AM DEBUG Initialized RateLog from data/rating.csv
+bot.model 09/04/2021 10:30:00 AM DEBUG Loading models: from {'ФИБИ': '', 'ДЖОУИ': '', 'МОНИКА': '', 'РЕЙЧЕЛ': '', 'РОСС': '', 'ЧЕНДЛЕР': ''}
+bot.model 09/04/2021 10:30:00 AM DEBUG Model for ФИБИ loading from 
+bot.model 09/04/2021 10:30:00 AM WARNING Model for ФИБИ loaded on cpu
+bot.model 09/04/2021 10:30:00 AM ERROR Model for ФИБИ not loaded from 
+bot.model 09/04/2021 10:30:00 AM DEBUG Model for ДЖОУИ loading from 
+bot.model 09/04/2021 10:30:00 AM WARNING Model for ДЖОУИ loaded on cpu
+bot.model 09/04/2021 10:30:00 AM ERROR Model for ДЖОУИ not loaded from 
+bot.model 09/04/2021 10:30:00 AM DEBUG Model for МОНИКА loading from 
+bot.model 09/04/2021 10:30:00 AM WARNING Model for МОНИКА loaded on cpu
+bot.model 09/04/2021 10:30:00 AM ERROR Model for МОНИКА not loaded from 
+bot.model 09/04/2021 10:30:00 AM DEBUG Model for РЕЙЧЕЛ loading from 
+bot.model 09/04/2021 10:30:00 AM WARNING Model for РЕЙЧЕЛ loaded on cpu
+bot.model 09/04/2021 10:30:00 AM ERROR Model for РЕЙЧЕЛ not loaded from 
+bot.model 09/04/2021 10:30:00 AM DEBUG Model for РОСС loading from 
+bot.model 09/04/2021 10:30:00 AM WARNING Model for РОСС loaded on cpu
+bot.model 09/04/2021 10:30:00 AM ERROR Model for РОСС not loaded from 
+bot.model 09/04/2021 10:30:00 AM DEBUG Model for ЧЕНДЛЕР loading from 
+bot.model 09/04/2021 10:30:00 AM WARNING Model for ЧЕНДЛЕР loaded on cpu
+bot.model 09/04/2021 10:30:00 AM ERROR Model for ЧЕНДЛЕР not loaded from 
+bot 09/04/2021 10:30:00 AM INFO start of session
+urllib3.connectionpool 09/04/2021 10:30:00 AM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 09/04/2021 10:30:03 AM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 09/04/2021 10:30:03 AM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 409 143
+bot.database 09/04/2021 11:08:19 AM DEBUG Request to create a DB assigned to data/db.csv
+bot.database 09/04/2021 11:08:19 AM DEBUG Initialized DB from data/db.csv
+bot.rating 09/04/2021 11:08:19 AM DEBUG Request to create a RateLog assigned to data/rating.csv
+bot.rating 09/04/2021 11:08:19 AM DEBUG Initialized RateLog from data/rating.csv
+bot.model 09/04/2021 11:08:19 AM DEBUG Loading models: from {'ФИБИ': '', 'ДЖОУИ': '', 'МОНИКА': '', 'РЕЙЧЕЛ': '', 'РОСС': '', 'ЧЕНДЛЕР': ''}
+bot.model 09/04/2021 11:08:19 AM DEBUG Model for ФИБИ loading from 
+bot.model 09/04/2021 11:08:19 AM WARNING Model for ФИБИ loaded on cpu
+bot.model 09/04/2021 11:08:19 AM ERROR Model for ФИБИ not loaded from 
+bot.model 09/04/2021 11:08:19 AM DEBUG Model for ДЖОУИ loading from 
+bot.model 09/04/2021 11:08:19 AM WARNING Model for ДЖОУИ loaded on cpu
+bot.model 09/04/2021 11:08:19 AM ERROR Model for ДЖОУИ not loaded from 
+bot.model 09/04/2021 11:08:19 AM DEBUG Model for МОНИКА loading from 
+bot.model 09/04/2021 11:08:19 AM WARNING Model for МОНИКА loaded on cpu
+bot.model 09/04/2021 11:08:19 AM ERROR Model for МОНИКА not loaded from 
+bot.model 09/04/2021 11:08:19 AM DEBUG Model for РЕЙЧЕЛ loading from 
+bot.model 09/04/2021 11:08:19 AM WARNING Model for РЕЙЧЕЛ loaded on cpu
+bot.model 09/04/2021 11:08:19 AM ERROR Model for РЕЙЧЕЛ not loaded from 
+bot.model 09/04/2021 11:08:19 AM DEBUG Model for РОСС loading from 
+bot.model 09/04/2021 11:08:19 AM WARNING Model for РОСС loaded on cpu
+bot.model 09/04/2021 11:08:19 AM ERROR Model for РОСС not loaded from 
+bot.model 09/04/2021 11:08:19 AM DEBUG Model for ЧЕНДЛЕР loading from 
+bot.model 09/04/2021 11:08:19 AM WARNING Model for ЧЕНДЛЕР loaded on cpu
+bot.model 09/04/2021 11:08:19 AM ERROR Model for ЧЕНДЛЕР not loaded from 
+bot 09/04/2021 11:08:19 AM INFO start of session
+urllib3.connectionpool 09/04/2021 11:08:19 AM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 09/04/2021 11:08:28 AM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 09/04/2021 11:08:28 AM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 409 143
+urllib3.connectionpool 09/04/2021 11:08:31 AM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 09/04/2021 11:08:31 AM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 409 143
+urllib3.connectionpool 09/04/2021 11:08:37 AM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 09/04/2021 11:08:37 AM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 409 143
+urllib3.connectionpool 09/04/2021 11:08:40 AM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 09/04/2021 11:08:43 AM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 409 143
+urllib3.connectionpool 09/04/2021 11:08:46 AM DEBUG Starting new HTTPS connection (1): api.telegram.org:443
+urllib3.connectionpool 09/04/2021 11:08:46 AM DEBUG https://api.telegram.org:443 "GET /bot1746595122:AAEDwmC0kk9-Z8y8kZHKiSkSVW_LXR984LU/getUpdates?offset=1&timeout=20 HTTP/1.1" 409 143
