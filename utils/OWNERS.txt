@@ -1,0 +1,23 @@
+[Elina+Stas]
+	utils/Data_preparation.ipynb
+
+[Stas]
+	utils/Metrics.ipynb
+
+[Polina]
+	utils/Statistics.ipynb
+
+[ALL]
+	utils/Parser.ipynb
+
+[Sergey]
+	utils/Text_Analysis.ipynb
+	utils/binary_classifier
+
+[Sergey+Polina]
+	utils/Ru_Phrases_Preprocessing.ipynb
+	utils/Phrases_Preprocessing.ipynb
+	utils/multilabel_classifier
+
+[Elina]
+	utils/bigrams_trigrams
