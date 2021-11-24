@@ -38,4 +38,5 @@ The [folder](https://github.com/Alenush/style_transfer_sirius2021summer/tree/mas
     - `Ru_Phrases_Preprocessing.ipynb` - gets phrases that are common for friends and hard to detect by a classifier in Russian
     - `Text_Analysis.ipynb` - brief analysis of most frequently used words
     - `Metrics.ipynb` - preprocessing and furhter tone anaylis
+    - 
 The checkpoints of the trained models stored [here]([folder](https://github.com/Alenush/style_transfer_sirius2021summer/tree/master/utils)).
