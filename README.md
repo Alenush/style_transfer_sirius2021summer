@@ -39,4 +39,4 @@ The [folder](https://github.com/Alenush/style_transfer_sirius2021summer/tree/mas
     - `Text_Analysis.ipynb` - brief analysis of most frequently used words
     - `Metrics.ipynb` - preprocessing and furhter tone anaylis
     - 
-The checkpoints of the trained models stored [here]([folder](https://github.com/Alenush/style_transfer_sirius2021summer/tree/master/utils)).
+The checkpoints of the trained models stored [here](https://drive.google.com/drive/u/0/folders/123cV6Z-1nAR3LJ9-dfQf8tpYBAP-Ea15).
